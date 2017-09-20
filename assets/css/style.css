@@ -1,0 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, input, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; 
+}
+body {
+  line-height: 1; 
+}
+ol, ul {
+  list-style: none; 
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; 
+  width: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #333;
+  font-family: 'Roboto', sans-serif;
+}
+td{
+  border: 1px solid #CCC;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+.clickable tr:hover, .clickable li:hover{
+  cursor: pointer;
+}
+
+
+/* MAIN WRAPPER */
+.wrapper{
+  margin: 20px;
+  width: 90%;
+}
+
+
+/* TOP LEVEL DIVS */
+.list{
+  float: left;
+  width: 48%;
+}
+.lineups{
+  float: right;
+  width: 48%;
+}
+
+
+/* PLAYERS TABLE AND HEADERS */
+.positions ul{
+  display: block;
+  width: 100%;
+}
+.positions li{
+  background: orange;
+  border: 1px solid #FFF;
+  border-bottom: none;
+  color: #FFF;
+  display: inline-block;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 14.285%;
+}
+.positions li:hover{
+  background: red;
+}
+
+.players-wrap{
+  clear: both;
+  display: block;
+  height: calc(100% - 80px);
+  overflow-y: scroll;
+}
+.players tr{
+  background: #FFF;
+}
+.players tr:nth-child(odd){
+  background: #EEE;
+}
+.players tr:hover{
+  background: #999;
+}
+td.name{
+  font-weight: bold;
+  text-align: left
+}
+td.ppg{
+  font-size: 12px;
+}
+td.gameinfo{
+  font-size: 11px;
+}
+
+

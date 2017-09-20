@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>DK Lineup Builder</title>
+	<link rel="icon" type="image/png" href=".png">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		
+		<div class="list">
+			<div class="positions">
+				<ul class="clickable">
+					<li>QB</li>
+					<li>RB</li>
+					<li>WR</li>
+					<li>TE</li>
+					<li>FLEX</li>
+					<li>DST</li>
+					<li>ALL</li>
+				</ul>
+			</div>
+			<div class="players-wrap">
+				<table class="players clickable"></table>
+			</div>
+		</div>
+		
+		<div class="lineups">
+			<label for="lineups-number">Number of Lineups:</label>
+			<input type="number" class="lineups-number" name="lineups-number" min="0" step="1" />
+		</div>
+
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script> 
+	<script src="assets/js/players-data.js"></script>
+	<script src="assets/js/players.js"></script>
+	<script src="assets/js/lineups.js"></script>
+</body>
+</html>
