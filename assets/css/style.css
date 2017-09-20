@@ -31,7 +31,7 @@ table {
   box-sizing: border-box;
 }
 body{
-  background: #333;
+  background: #666;
   font-family: 'Roboto', sans-serif;
 }
 td{
@@ -48,22 +48,23 @@ td{
 /* MAIN WRAPPER */
 .wrapper{
   margin: 20px;
-  width: 90%;
 }
 
 
 /* TOP LEVEL DIVS */
 .list{
   float: left;
-  width: 48%;
+  width: 49.5%;
 }
 .lineups{
+  background:;
+  color: #FFF;
   float: right;
-  width: 48%;
+  width: 49.5%;
 }
 
 
-/* PLAYERS TABLE AND HEADERS */
+/* PLAYERS TABLE HEADERS AND WRAP */
 .positions ul{
   display: block;
   width: 100%;
@@ -83,13 +84,14 @@ td{
 .positions li:hover{
   background: red;
 }
-
 .players-wrap{
   clear: both;
   display: block;
-  height: calc(100% - 80px);
+  max-height: calc(100% - 80px);
   overflow-y: scroll;
 }
+
+/* PLAYERS TABLE ROWS AND CELLS */
 .players tr{
   background: #FFF;
 }
@@ -108,6 +110,52 @@ td.ppg{
 }
 td.gameinfo{
   font-size: 11px;
+}
+
+
+/* LINEUP TABLES */
+.lineups-wrap{
+  clear: both;
+  display: block;
+  max-height: calc(100% - 80px);
+  margin-top: 20px;
+  overflow-y: scroll;
+}
+.lineup{
+  float: left;
+  margin: 0 0.5% 20px 0.5%;
+  width: 24%;
+}
+.lineup th{
+  background: #333;
+  color: #FFF;
+  font-size: 12px;
+  padding: 5px 0;
+}
+.lineup tr{
+  background: #FFF;
+}
+.lineup td{
+  color: #000;
+  font-size: 10px;
+  padding: 5px;
+}
+
+/* LINEUP TOTALS ROW */
+.total td{
+  background: lightgreen;
+  font-size: 12px;
+}
+.cost-over .total td{
+  background: lightcoral;
+}
+.total span{
+  display: inline-block;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.total td:last-child{
+  font-weight: bold;
 }
 
 

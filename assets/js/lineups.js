@@ -20,12 +20,17 @@ function newLineup(){
 
 	return{
 		id: newLineupId,
-		QB: players[7],
-		RB: [players[5], players[2]],
-		WR: [players[0],players[1],players[3]],
-		TE: players[22],
-		FLEX: players[21],
-		DST: players[448]
+		roster: {
+			QB: players[7],
+			RB1: players[5],
+			RB2: players[136],
+			WR1: players[0],
+			WR2: players[1],
+			WR3: players[146],
+			TE: players[378],
+			FLEX: players[369],
+			DST: players[305]
+		}
 	}
 }
 
@@ -36,31 +41,43 @@ function printLineups(){
 }
 
 function printLineup(lineup){
-	var output = '<table class="lineup">';
-	output += '<tr><td>QB</td><td>' + lineup.QB.Name + '</td>' + '<td>' + lineup.QB.Salary + '</td></tr>';
-	output += '<tr><td>RB</td><td>' + lineup.RB[0].Name + '</td>' + '<td>' + lineup.RB[0].Salary + '</td></tr>';
-	output += '<tr><td>RB</td><td>' + lineup.RB[1].Name + '</td>' + '<td>' + lineup.RB[1].Salary + '</td></tr>';
-	output += '<tr><td>WR</td><td>' + lineup.WR[0].Name + '</td>' + '<td>' + lineup.WR[0].Salary + '</td></tr>';
-	output += '<tr><td>WR</td><td>' + lineup.WR[1].Name + '</td>' + '<td>' + lineup.WR[1].Salary + '</td></tr>';
-	output += '<tr><td>WR</td><td>' + lineup.WR[2].Name + '</td>' + '<td>' + lineup.WR[2].Salary + '</td></tr>';
-	output += '<tr><td>TE</td><td>' + lineup.TE.Name + '</td>' + '<td>' + lineup.TE.Salary + '</td></tr>';
-	output += '<tr><td>FLEX</td><td>' + lineup.FLEX.Name + '</td>' + '<td>' + lineup.FLEX.Salary + '</td></tr>';
-	output += '<tr><td>DST</td><td>' + lineup.DST.Name + '</td>' + '<td>' + lineup.DST.Salary + '</td></tr>';
-	output += '</table><br/><br/>';
+	var cost = findCost(lineup.roster);
+	var costRemaining = 50000 - cost;
+
+	if(cost > 50000){ var costStatus = "cost-over"}
+		else{ var costStatus = "cost-under" }
+
+	var output = '<table class="lineup ' + costStatus + '" id="' + lineup.id + '">';
+	output += '<tr><th colspan="4">Lineup #' + lineup.id + '</th></tr>'; 
 	
-	$('.lineups').append(output);
+	for(var key in lineup.roster){
+		output += '<tr><td>' + key + '</td><td>' + lineup.roster[key].Name + '</td>' + '<td>' + lineup.roster[key].Salary + '</td></tr>';
+	}
+	
+	output += '<tr class="total"><td colspan="2">Remaining: <span>' + costRemaining + '</span></td><td>' + cost + '</td></tr>';
+	output += '</table>';
+	
+	$('.lineups-wrap').append(output);
 }
 
+function findCost(roster){
+	var cost = 0;
+	for(var key in roster){
+		cost += roster[key].Salary;
+	}
+	return cost;
+}
+
+/* CLICK EVENTS*/
 $('.lineups-number').change(function() {
 	var number = $(this).val();
 	buildLineups(number);
 });
 
+
+/* INITIALIZE */
 var lineups = [];
 var newLineupId = 0;
-
-//buildLineups(20);
-
 
 
 
