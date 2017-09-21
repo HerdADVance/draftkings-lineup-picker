@@ -112,6 +112,11 @@ td.gameinfo{
   font-size: 11px;
 }
 
+/* PLAYER ADD EXPANDED AREA ON CLICK */
+.player-add{
+  height: 100px;
+}
+
 
 /* LINEUP TABLES */
 .lineups-wrap{
@@ -139,6 +144,11 @@ td.gameinfo{
   color: #000;
   font-size: 10px;
   padding: 5px;
+}
+
+/* INDIVIDUAL LINEUP PLAYER ROWS */
+.lineup-player td:first-child{
+  width: 30px;
 }
 
 /* LINEUP TOTALS ROW */

@@ -7,30 +7,19 @@ function buildLineups(num){
 
 function newLineup(){
 	newLineupId ++;
-	// return{
-	// 	id: newLineupId,
-	//  cost: 0,
-	// 	QB: null,
-	// 	RB: [null, null],
-	// 	WR: [null, null, null],
-	// 	TE: null,
-	// 	FLEX: null,
-	// 	DST: null
-	// }
-
 	return{
 		id: newLineupId,
-		roster: {
-			QB: players[7],
-			RB1: players[5],
-			RB2: players[136],
-			WR1: players[0],
-			WR2: players[1],
-			WR3: players[146],
-			TE: players[378],
-			FLEX: players[369],
-			DST: players[305]
-		}
+	 	roster: {
+	 		QB: null,
+			RB1: null,
+			RB2: null,
+			WR1: null,
+			WR2: null,
+			WR3: null,
+			TE: null,
+			FLEX: null,
+			DST: null
+	 	}	
 	}
 }
 
@@ -51,7 +40,11 @@ function printLineup(lineup){
 	output += '<tr><th colspan="4">Lineup #' + lineup.id + '</th></tr>'; 
 	
 	for(var key in lineup.roster){
-		output += '<tr><td>' + key + '</td><td>' + lineup.roster[key].Name + '</td>' + '<td>' + lineup.roster[key].Salary + '</td></tr>';
+			output += '<tr class="lineup-player"><td>' + key + '</td><td>';
+			if(lineup.roster[key]) output += lineup.roster[key].Name
+			output += '</td><td>';
+			if(lineup.roster[key]) output += lineup.roster[key].Salary
+			output += '</td></tr>';
 	}
 	
 	output += '<tr class="total"><td colspan="2">Remaining: <span>' + costRemaining + '</span></td><td>' + cost + '</td></tr>';
@@ -63,7 +56,9 @@ function printLineup(lineup){
 function findCost(roster){
 	var cost = 0;
 	for(var key in roster){
-		cost += roster[key].Salary;
+		if(roster[key]){
+			cost += roster[key].Salary;
+		}
 	}
 	return cost;
 }

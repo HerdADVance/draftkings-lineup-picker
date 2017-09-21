@@ -29,7 +29,7 @@ function printPlayers(pos){
 
 function printPlayer(player){
 	var row = '';
-	row += '<tr>';
+	row += '<tr class="player">';
 	row += '<td class="position">' + player.Position + '</td>';
 	row += '<td class="name">' + player.Name + '</td>';
 	row += '<td class="team">' + player.teamAbbrev + '</td>';
@@ -45,4 +45,14 @@ $('.positions li').click(function(){
 	printPlayers(pos);
 });
 
+
+/* CLICK EVENTS */
+$(".players").delegate(".player", "click", function(){
+	$('.player-add').remove();
+	$(this).after('<tr class="player-add"><td colspan="6">MORE INFO</td></tr>');
+});
+
+
+/* INITIALIZE */
 printPlayers('ALL');
+
