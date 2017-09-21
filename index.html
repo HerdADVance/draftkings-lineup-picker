@@ -27,11 +27,12 @@
 
 			<div class="players-wrap">
 				<table class="players clickable"></table>
-				<table>
+				<table class="player-add-holder">
 					<tr class="player-add">
 						<td colspan="6">
 							<p>Add to <input type="number" class="player-add-number" min="0" step="1"/> of <span></span> lineups.</p>
 							<button class="player-add-button">Add</button>
+							<input type="hidden" class="player-add-id" />
 						</td>
 					</tr>
 				</table>
@@ -40,8 +41,8 @@
 		</div>
 		
 		<div class="lineups">
-			<label for="lineups-number">Number of Lineups:</label>
-			<input type="number" class="lineups-number" name="lineups-number" min="0" step="1" />
+			<!--label for="lineups-number">Number of Lineups:</label>
+			<input type="number" class="lineups-number" name="lineups-number" min="0" step="1" /-->
 			
 			<div class="lineups-wrap"></div>
 		</div>

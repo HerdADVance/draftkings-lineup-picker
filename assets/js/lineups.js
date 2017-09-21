@@ -1,5 +1,5 @@
-function buildLineups(num){
-	for(var i=0; i<num; i++){
+function buildLineups(n){
+	for(var i=0; i<n; i++){
 		lineups.push(newLineup())
 	}
 	printLineups();
@@ -67,7 +67,8 @@ function findCost(roster){
 
 
 /* ADDING TO LINEUPS */
-function addPlayerToLineups(n){
+function addPlayerToLineups(n, id){
+	console.log(id);
 	for(var i=0; i<n; i++){
 		lineups[i].roster.QB = players[7];
 	}
@@ -85,6 +86,7 @@ $('.lineups-number').change(function() {
 var lineups = [];
 var newLineupId = 0;
 
+buildLineups(20);
 
 
 

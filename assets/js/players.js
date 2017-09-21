@@ -1,4 +1,5 @@
 function printPlayers(pos){
+	$('.player-add-holder').after($('.player-add'));
 	$('.players').empty();
 	var list = '';
 
@@ -29,7 +30,7 @@ function printPlayers(pos){
 
 function printPlayer(player){
 	var row = '';
-	row += '<tr class="player">';
+	row += '<tr class="player" id="' + player.id + '">';
 	row += '<td class="position">' + player.Position + '</td>';
 	row += '<td class="name">' + player.Name + '</td>';
 	row += '<td class="team">' + player.teamAbbrev + '</td>';
@@ -51,13 +52,19 @@ $(".players").delegate(".player", "click", function(){
 	$('.player-add').show();
 	$(this).after($('.player-add'));
 	$('.player-add-number').val(0);
+	$('.player-add-id').val($(this).attr('id'));
 	$('.player-add span').text(lineups.length);
 });
 
 $('.player-add-button').click(function(){
 	var n = $('.player-add-number').val();
-	addPlayerToLineups(n);
+	var id = $('.player-add-id').val();
+	addPlayerToLineups(n, id);
 });
+
+// function clickedPlayer(){
+// 	alert ('CLICKED PLAYER');
+// }
 
 
 /* INITIALIZE */

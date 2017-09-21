@@ -123,8 +123,7 @@ td.gameinfo{
 .lineups-wrap{
   clear: both;
   display: block;
-  max-height: calc(100% - 80px);
-  margin-top: 20px;
+  max-height: calc(100% - 40px);
   overflow-y: scroll;
 }
 .lineup{
