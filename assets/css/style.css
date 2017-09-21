@@ -114,6 +114,7 @@ td.gameinfo{
 
 /* PLAYER ADD EXPANDED AREA ON CLICK */
 .player-add{
+  display: none;
   height: 100px;
 }
 

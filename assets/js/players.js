@@ -48,8 +48,15 @@ $('.positions li').click(function(){
 
 /* CLICK EVENTS */
 $(".players").delegate(".player", "click", function(){
-	$('.player-add').remove();
-	$(this).after('<tr class="player-add"><td colspan="6">MORE INFO</td></tr>');
+	$('.player-add').show();
+	$(this).after($('.player-add'));
+	$('.player-add-number').val(0);
+	$('.player-add span').text(lineups.length);
+});
+
+$('.player-add-button').click(function(){
+	var n = $('.player-add-number').val();
+	addPlayerToLineups(n);
 });
 
 

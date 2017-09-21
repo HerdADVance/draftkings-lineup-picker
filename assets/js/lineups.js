@@ -24,6 +24,7 @@ function newLineup(){
 }
 
 function printLineups(){
+	$('.lineups-wrap').empty();
 	for(var i=0; i<lineups.length; i++){
 		printLineup(lineups[i]);
 	}
@@ -61,6 +62,16 @@ function findCost(roster){
 		}
 	}
 	return cost;
+}
+
+
+
+/* ADDING TO LINEUPS */
+function addPlayerToLineups(n){
+	for(var i=0; i<n; i++){
+		lineups[i].roster.QB = players[7];
+	}
+	printLineups();
 }
 
 /* CLICK EVENTS*/
