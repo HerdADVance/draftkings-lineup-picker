@@ -70,7 +70,7 @@ td{
   width: 100%;
 }
 .positions li{
-  background: orange;
+  background: #FF6C00;
   border: 1px solid #FFF;
   border-bottom: none;
   color: #FFF;
@@ -82,7 +82,7 @@ td{
   width: 14.285%;
 }
 .positions li:hover{
-  background: red;
+  background: #9AE200;
 }
 .players-wrap{
   clear: both;

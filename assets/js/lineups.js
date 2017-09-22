@@ -41,11 +41,11 @@ function printLineup(lineup){
 	output += '<tr><th colspan="4">Lineup #' + lineup.id + '</th></tr>'; 
 	
 	for(var key in lineup.roster){
-			output += '<tr class="lineup-player"><td>' + key + '</td><td>';
-			if(lineup.roster[key]) output += lineup.roster[key].Name
-			output += '</td><td>';
-			if(lineup.roster[key]) output += lineup.roster[key].Salary
-			output += '</td></tr>';
+		output += '<tr class="lineup-player"><td>' + key + '</td><td>';
+		if(lineup.roster[key]) output += lineup.roster[key].Name
+		output += '</td><td>';
+		if(lineup.roster[key]) output += lineup.roster[key].Salary
+		output += '</td></tr>';
 	}
 	
 	output += '<tr class="total"><td colspan="2">Remaining: <span>' + costRemaining + '</span></td><td>' + cost + '</td></tr>';
@@ -79,9 +79,12 @@ function addPlayerToLineups(n, id){
 				case 'RB':
 					if(lineups[i].roster.RB1){
 						if(lineups[i].roster.RB2){
-							// RB FULL
+							if(lineups[i].roster.FLEX){
+								continue;
+							}
+							else positionAvailable = 'FLEX'
 						}
-						positionAvailable = 'RB2';
+						else positionAvailable = 'RB2';
 					}
 					else positionAvailable = 'RB1';
 					break;
@@ -89,9 +92,12 @@ function addPlayerToLineups(n, id){
 					if(lineups[i].roster.WR1){
 						if(lineups[i].roster.WR2){
 							if(lineups[i].roster.WR3){
-								// WR FULL
+								if(lineups[i].roster.FLEX){
+									continue;
+								}
+								else positionAvailable = 'FLEX';
 							}
-							positionAvailable = 'WR3';
+							else positionAvailable = 'WR3';
 						}
 						else positionAvailable = 'WR2';
 					}
@@ -100,10 +106,67 @@ function addPlayerToLineups(n, id){
 			}
 			lineups[i].roster[positionAvailable] = player;
 		}
-		else lineups[i].roster[position] = player;
+		else if(position == 'TE'){
+			if(lineups[i].roster.TE){
+				if(lineups[i].roster.FLEX){
+					continue;		
+				}
+				else positionAvailable = 'FLEX';
+			}
+			else positionAvailable = 'TE';
+		}
+		else{
+			switch(position){
+				case 'QB':
+					if(lineups[i].roster.QB){
+						continue;		
+					}
+					else positionAvailable = 'QB';
+					break;
+				case 'DST':
+					if(lineups[i].roster.DST){
+						continue;		
+					}
+					else positionAvailable = 'DST';
+					break;
+			}
+		}
+
+		lineups[i].roster[positionAvailable] = player;
+	
 	}
 
 	printLineups();
+}
+
+function getPlayerLineupStats(id){
+	var player = players[id];
+	var playerFound = 0;
+
+	var lineupsIn = [];
+	var lineupsOut = [];
+	
+	for(var i=0; i<lineups.length; i++){ 
+		for(var key in lineups[i].roster){ //Shorten this based on position
+			if(lineups[i].roster[key]){
+				if(id == lineups[i].roster[key].id){
+					playerFound ++;
+					lineupsIn.push(i);
+				}
+			}
+		}
+	}
+
+	console.log(player.Name + " found " + playerFound + " times.");
+
+	for(var i=0; i<lineupsIn.length; i++){ 
+		console.log(lineupsIn[i] + " ");
+	}
+
+	$('.total-lineups').text(lineups.length);
+	$('.player-in-lineups').text(playerFound);
+	$('.available-lineups').text(lineups.length - playerFound);
+	$('.player-add-number').attr('max', lineups.length - playerFound);
 }
 
 /* CLICK EVENTS*/

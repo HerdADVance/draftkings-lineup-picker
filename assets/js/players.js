@@ -30,7 +30,7 @@ function printPlayers(pos){
 
 function printPlayer(player, i){
 	var row = '';
-	row += '<tr class="player" id="' + i + '">';
+	row += '<tr class="player" id="' + player.id + '">';
 	row += '<td class="position">' + player.Position + '</td>';
 	row += '<td class="name">' + player.Name + '</td>';
 	row += '<td class="team">' + player.teamAbbrev + '</td>';
@@ -49,11 +49,15 @@ $('.positions li').click(function(){
 
 /* CLICK EVENTS */
 $(".players").delegate(".player", "click", function(){
+
 	$('.player-add').show();
 	$(this).after($('.player-add'));
 	$('.player-add-number').val(0);
-	$('.player-add-id').val($(this).attr('id'));
-	$('.player-add span').text(lineups.length);
+
+	var playerId = $(this).attr('id');
+	$('.player-add-id').val(playerId); 
+
+	getPlayerLineupStats(playerId);
 });
 
 $('.player-add-button').click(function(){

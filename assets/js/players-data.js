@@ -6,7 +6,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":14.7,
         "teamAbbrev":"ATL",
-        "id":9490086
+        "dkId":9490086,
+        "id":0
     },
     {
         "Position":"WR",
@@ -15,7 +16,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":21.7,
         "teamAbbrev":"PIT",
-        "id":9490055
+        "dkId":9490055,
+        "id":1
     },
     {
         "Position":"RB",
@@ -24,7 +26,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":10.4,
         "teamAbbrev":"PIT",
-        "id":9490047
+        "dkId":9490047,
+        "id":2
     },
     {
         "Position":"WR",
@@ -33,7 +36,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":7.6,
         "teamAbbrev":"NYG",
-        "id":9490401
+        "dkId":9490401,
+        "id":3
     },
     {
         "Position":"WR",
@@ -42,7 +46,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":12.05,
         "teamAbbrev":"CIN",
-        "id":9490523
+        "dkId":9490523,
+        "id":4
     },
     {
         "Position":"RB",
@@ -51,7 +56,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":37.75,
         "teamAbbrev":"KC",
-        "id":9490576
+        "dkId":9490576,
+        "id":5
     },
     {
         "Position":"WR",
@@ -60,7 +66,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":10.45,
         "teamAbbrev":"GB",
-        "id":9490552
+        "dkId":9490552,
+        "id":6
     },
     {
         "Position":"QB",
@@ -69,7 +76,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":22.23,
         "teamAbbrev":"NE",
-        "id":9490288
+        "dkId":9490288,
+        "id":7
     },
     {
         "Position":"RB",
@@ -78,7 +86,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":17.6,
         "teamAbbrev":"MIA",
-        "id":9490321
+        "dkId":9490321,
+        "id":8
     },
     {
         "Position":"RB",
@@ -87,7 +96,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":19.85,
         "teamAbbrev":"LAC",
-        "id":9490606
+        "dkId":9490606,
+        "id":9
     },
     {
         "Position":"WR",
@@ -96,7 +106,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":22.3,
         "teamAbbrev":"TB",
-        "id":9490236
+        "dkId":9490236,
+        "id":10
     },
     {
         "Position":"WR",
@@ -105,7 +116,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":23.15,
         "teamAbbrev":"OAK",
-        "id":9490646
+        "dkId":9490646,
+        "id":11
     },
     {
         "Position":"WR",
@@ -114,7 +126,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":9.05,
         "teamAbbrev":"NE",
-        "id":9490302
+        "dkId":9490302,
+        "id":12
     },
     {
         "Position":"QB",
@@ -123,7 +136,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":22.03,
         "teamAbbrev":"GB",
-        "id":9490540
+        "dkId":9490540,
+        "id":13
     },
     {
         "Position":"QB",
@@ -132,7 +146,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":20.44,
         "teamAbbrev":"NO",
-        "id":9489948
+        "dkId":9489948,
+        "id":14
     },
     {
         "Position":"WR",
@@ -141,7 +156,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":18.25,
         "teamAbbrev":"LAC",
-        "id":9490614
+        "dkId":9490614,
+        "id":15
     },
     {
         "Position":"QB",
@@ -150,7 +166,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":17.91,
         "teamAbbrev":"ATL",
-        "id":9490074
+        "dkId":9490074,
+        "id":16
     },
     {
         "Position":"WR",
@@ -159,7 +176,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":12.25,
         "teamAbbrev":"OAK",
-        "id":9490644
+        "dkId":9490644,
+        "id":17
     },
     {
         "Position":"RB",
@@ -168,7 +186,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":17.1,
         "teamAbbrev":"BUF",
-        "id":9489887
+        "dkId":9489887,
+        "id":18
     },
     {
         "Position":"WR",
@@ -177,7 +196,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":11.7,
         "teamAbbrev":"NO",
-        "id":9489961
+        "dkId":9489961,
+        "id":19
     },
     {
         "Position":"WR",
@@ -186,7 +206,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":15.45,
         "teamAbbrev":"DET",
-        "id":9490123
+        "dkId":9490123,
+        "id":20
     },
     {
         "Position":"RB",
@@ -195,7 +216,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":24.15,
         "teamAbbrev":"GB",
-        "id":9490542
+        "dkId":9490542,
+        "id":21
     },
     {
         "Position":"TE",
@@ -204,7 +226,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":15.95,
         "teamAbbrev":"NE",
-        "id":9490312
+        "dkId":9490312,
+        "id":22
     },
     {
         "Position":"WR",
@@ -213,7 +236,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":20.1,
         "teamAbbrev":"MIA",
-        "id":9490329
+        "dkId":9490329,
+        "id":23
     },
     {
         "Position":"QB",
@@ -222,7 +246,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":19.94,
         "teamAbbrev":"OAK",
-        "id":9490633
+        "dkId":9490633,
+        "id":24
     },
     {
         "Position":"WR",
@@ -231,7 +256,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":8.6,
         "teamAbbrev":"CAR",
-        "id":9489991
+        "dkId":9489991,
+        "id":25
     },
     {
         "Position":"RB",
@@ -240,7 +266,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":17.95,
         "teamAbbrev":"ATL",
-        "id":9490076
+        "dkId":9490076,
+        "id":26
     },
     {
         "Position":"QB",
@@ -249,7 +276,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":12.98,
         "teamAbbrev":"CAR",
-        "id":9489980
+        "dkId":9489980,
+        "id":27
     },
     {
         "Position":"WR",
@@ -258,7 +286,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":19.35,
         "teamAbbrev":"KC",
-        "id":9490582
+        "dkId":9490582,
+        "id":28
     },
     {
         "Position":"WR",
@@ -267,7 +296,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":16.4,
         "teamAbbrev":"MIN",
-        "id":9490205
+        "dkId":9490205,
+        "id":29
     },
     {
         "Position":"WR",
@@ -276,7 +306,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":10.2,
         "teamAbbrev":"SEA",
-        "id":9490486
+        "dkId":9490486,
+        "id":30
     },
     {
         "Position":"QB",
@@ -285,7 +316,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":19.46,
         "teamAbbrev":"LAC",
-        "id":9490603
+        "dkId":9490603,
+        "id":31
     },
     {
         "Position":"WR",
@@ -294,7 +326,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":12.5,
         "teamAbbrev":"MIA",
-        "id":9490331
+        "dkId":9490331,
+        "id":32
     },
     {
         "Position":"QB",
@@ -303,7 +336,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":12.32,
         "teamAbbrev":"SEA",
-        "id":9490472
+        "dkId":9490472,
+        "id":33
     },
     {
         "Position":"QB",
@@ -312,7 +346,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":17.12,
         "teamAbbrev":"PIT",
-        "id":9490044
+        "dkId":9490044,
+        "id":34
     },
     {
         "Position":"QB",
@@ -321,7 +356,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":21.13,
         "teamAbbrev":"DET",
-        "id":9490105
+        "dkId":9490105,
+        "id":35
     },
     {
         "Position":"WR",
@@ -330,7 +366,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":16.4,
         "teamAbbrev":"HOU",
-        "id":9490273
+        "dkId":9490273,
+        "id":36
     },
     {
         "Position":"RB",
@@ -339,7 +376,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":10.45,
         "teamAbbrev":"CAR",
-        "id":9489983
+        "dkId":9489983,
+        "id":37
     },
     {
         "Position":"WR",
@@ -348,7 +386,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":11.15,
         "teamAbbrev":"NE",
-        "id":9490304
+        "dkId":9490304,
+        "id":38
     },
     {
         "Position":"QB",
@@ -357,7 +396,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":13.1,
         "teamAbbrev":"MIA",
-        "id":9490319
+        "dkId":9490319,
+        "id":39
     },
     {
         "Position":"QB",
@@ -366,7 +406,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":12.73,
         "teamAbbrev":"WAS",
-        "id":9490661
+        "dkId":9490661,
+        "id":40
     },
     {
         "Position":"QB",
@@ -375,7 +416,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":12.46,
         "teamAbbrev":"TB",
-        "id":9490226
+        "dkId":9490226,
+        "id":41
     },
     {
         "Position":"QB",
@@ -384,7 +426,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":16.42,
         "teamAbbrev":"TEN",
-        "id":9490443
+        "dkId":9490443,
+        "id":42
     },
     {
         "Position":"WR",
@@ -393,7 +436,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":15.25,
         "teamAbbrev":"GB",
-        "id":9490554
+        "dkId":9490554,
+        "id":43
     },
     {
         "Position":"TE",
@@ -402,7 +446,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":18.35,
         "teamAbbrev":"KC",
-        "id":9490594
+        "dkId":9490594,
+        "id":44
     },
     {
         "Position":"RB",
@@ -411,7 +456,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":11.05,
         "teamAbbrev":"OAK",
-        "id":9490636
+        "dkId":9490636,
+        "id":45
     },
     {
         "Position":"WR",
@@ -420,7 +466,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":12.4,
         "teamAbbrev":"DEN",
-        "id":9489929
+        "dkId":9489929,
+        "id":46
     },
     {
         "Position":"RB",
@@ -429,7 +476,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":14.05,
         "teamAbbrev":"MIN",
-        "id":9490197
+        "dkId":9490197,
+        "id":47
     },
     {
         "Position":"QB",
@@ -438,7 +486,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":26.35,
         "teamAbbrev":"PHI",
-        "id":9490414
+        "dkId":9490414,
+        "id":48
     },
     {
         "Position":"WR",
@@ -447,7 +496,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":15.5,
         "teamAbbrev":"PHI",
-        "id":9490424
+        "dkId":9490424,
+        "id":49
     },
     {
         "Position":"QB",
@@ -456,7 +506,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":25.08,
         "teamAbbrev":"KC",
-        "id":9490571
+        "dkId":9490571,
+        "id":50
     },
     {
         "Position":"WR",
@@ -465,7 +516,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":8.85,
         "teamAbbrev":"WAS",
-        "id":9490671
+        "dkId":9490671,
+        "id":51
     },
     {
         "Position":"RB",
@@ -474,7 +526,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":21.6,
         "teamAbbrev":"DEN",
-        "id":9489919
+        "dkId":9489919,
+        "id":52
     },
     {
         "Position":"WR",
@@ -483,7 +536,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":14.9,
         "teamAbbrev":"DEN",
-        "id":9489931
+        "dkId":9489931,
+        "id":53
     },
     {
         "Position":"QB",
@@ -492,7 +546,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"IND",
-        "id":9490168
+        "dkId":9490168,
+        "id":54
     },
     {
         "Position":"WR",
@@ -501,7 +556,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":11.1,
         "teamAbbrev":"PIT",
-        "id":9490057
+        "dkId":9490057,
+        "id":55
     },
     {
         "Position":"QB",
@@ -510,7 +566,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":28.54,
         "teamAbbrev":"MIN",
-        "id":9490195
+        "dkId":9490195,
+        "id":56
     },
     {
         "Position":"WR",
@@ -519,7 +576,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":18.05,
         "teamAbbrev":"MIN",
-        "id":9490207
+        "dkId":9490207,
+        "id":57
     },
     {
         "Position":"RB",
@@ -528,7 +586,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":17.7,
         "teamAbbrev":"NE",
-        "id":9490290
+        "dkId":9490290,
+        "id":58
     },
     {
         "Position":"RB",
@@ -537,7 +596,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":19.55,
         "teamAbbrev":"CHI",
-        "id":9490013
+        "dkId":9490013,
+        "id":59
     },
     {
         "Position":"QB",
@@ -546,7 +606,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NE",
-        "id":9490289
+        "dkId":9490289,
+        "id":60
     },
     {
         "Position":"WR",
@@ -555,7 +616,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":15.8,
         "teamAbbrev":"GB",
-        "id":9490556
+        "dkId":9490556,
+        "id":61
     },
     {
         "Position":"QB",
@@ -564,7 +626,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":24.15,
         "teamAbbrev":"DEN",
-        "id":9489916
+        "dkId":9489916,
+        "id":62
     },
     {
         "Position":"RB",
@@ -573,7 +636,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":5.9,
         "teamAbbrev":"TEN",
-        "id":9490445
+        "dkId":9490445,
+        "id":63
     },
     {
         "Position":"QB",
@@ -582,7 +646,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CAR",
-        "id":9489981
+        "dkId":9489981,
+        "id":64
     },
     {
         "Position":"RB",
@@ -591,7 +656,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":13.7,
         "teamAbbrev":"NE",
-        "id":9490292
+        "dkId":9490292,
+        "id":65
     },
     {
         "Position":"WR",
@@ -600,7 +666,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":19,
         "teamAbbrev":"NE",
-        "id":9490306
+        "dkId":9490306,
+        "id":66
     },
     {
         "Position":"TE",
@@ -609,7 +676,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":9.7,
         "teamAbbrev":"WAS",
-        "id":9490681
+        "dkId":9490681,
+        "id":67
     },
     {
         "Position":"RB",
@@ -618,7 +686,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":11.15,
         "teamAbbrev":"ATL",
-        "id":9490078
+        "dkId":9490078,
+        "id":68
     },
     {
         "Position":"QB",
@@ -627,7 +696,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":10.13,
         "teamAbbrev":"NYG",
-        "id":9490380
+        "dkId":9490380,
+        "id":69
     },
     {
         "Position":"RB",
@@ -636,7 +706,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":8.85,
         "teamAbbrev":"TEN",
-        "id":9490447
+        "dkId":9490447,
+        "id":70
     },
     {
         "Position":"WR",
@@ -645,7 +716,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":8.3,
         "teamAbbrev":"IND",
-        "id":9490177
+        "dkId":9490177,
+        "id":71
     },
     {
         "Position":"RB",
@@ -654,7 +726,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":10.65,
         "teamAbbrev":"DET",
-        "id":9490111
+        "dkId":9490111,
+        "id":72
     },
     {
         "Position":"QB",
@@ -663,7 +736,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":5.73,
         "teamAbbrev":"CIN",
-        "id":9490506
+        "dkId":9490506,
+        "id":73
     },
     {
         "Position":"QB",
@@ -672,7 +746,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":12.73,
         "teamAbbrev":"CLE",
-        "id":9490134
+        "dkId":9490134,
+        "id":74
     },
     {
         "Position":"RB",
@@ -681,7 +756,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":11.65,
         "teamAbbrev":"HOU",
-        "id":9490267
+        "dkId":9490267,
+        "id":75
     },
     {
         "Position":"WR",
@@ -690,7 +766,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":2.35,
         "teamAbbrev":"NYG",
-        "id":9490397
+        "dkId":9490397,
+        "id":76
     },
     {
         "Position":"TE",
@@ -699,7 +776,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":16,
         "teamAbbrev":"PHI",
-        "id":9490436
+        "dkId":9490436,
+        "id":77
     },
     {
         "Position":"QB",
@@ -708,7 +786,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":15.13,
         "teamAbbrev":"BUF",
-        "id":9489884
+        "dkId":9489884,
+        "id":78
     },
     {
         "Position":"TE",
@@ -717,7 +796,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":2.9,
         "teamAbbrev":"CAR",
-        "id":9490001
+        "dkId":9490001,
+        "id":79
     },
     {
         "Position":"RB",
@@ -726,7 +806,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":8.15,
         "teamAbbrev":"CHI",
-        "id":9490011
+        "dkId":9490011,
+        "id":80
     },
     {
         "Position":"RB",
@@ -735,7 +816,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":8.45,
         "teamAbbrev":"SEA",
-        "id":9490478
+        "dkId":9490478,
+        "id":81
     },
     {
         "Position":"WR",
@@ -744,7 +826,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":6.05,
         "teamAbbrev":"WAS",
-        "id":9490673
+        "dkId":9490673,
+        "id":82
     },
     {
         "Position":"RB",
@@ -753,7 +836,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":7.15,
         "teamAbbrev":"CLE",
-        "id":9490137
+        "dkId":9490137,
+        "id":83
     },
     {
         "Position":"WR",
@@ -762,7 +846,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":9.1,
         "teamAbbrev":"CLE",
-        "id":9490147
+        "dkId":9490147,
+        "id":84
     },
     {
         "Position":"QB",
@@ -771,7 +856,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":5.94,
         "teamAbbrev":"IND",
-        "id":9490169
+        "dkId":9490169,
+        "id":85
     },
     {
         "Position":"RB",
@@ -780,7 +866,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":10.1,
         "teamAbbrev":"CAR",
-        "id":9489985
+        "dkId":9489985,
+        "id":86
     },
     {
         "Position":"QB",
@@ -789,7 +876,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":14.28,
         "teamAbbrev":"CHI",
-        "id":9490008
+        "dkId":9490008,
+        "id":87
     },
     {
         "Position":"RB",
@@ -798,7 +886,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":7.85,
         "teamAbbrev":"DET",
-        "id":9490109
+        "dkId":9490109,
+        "id":88
     },
     {
         "Position":"QB",
@@ -807,7 +896,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":12.69,
         "teamAbbrev":"HOU",
-        "id":9490258
+        "dkId":9490258,
+        "id":89
     },
     {
         "Position":"WR",
@@ -816,7 +906,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":8.5,
         "teamAbbrev":"NYG",
-        "id":9490395
+        "dkId":9490395,
+        "id":90
     },
     {
         "Position":"QB",
@@ -825,7 +916,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CIN",
-        "id":9490505
+        "dkId":9490505,
+        "id":91
     },
     {
         "Position":"QB",
@@ -834,7 +926,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"KC",
-        "id":9490572
+        "dkId":9490572,
+        "id":92
     },
     {
         "Position":"QB",
@@ -843,7 +936,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"WAS",
-        "id":9490662
+        "dkId":9490662,
+        "id":93
     },
     {
         "Position":"QB",
@@ -852,7 +946,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NO",
-        "id":9489949
+        "dkId":9489949,
+        "id":94
     },
     {
         "Position":"WR",
@@ -861,7 +956,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":12.35,
         "teamAbbrev":"DET",
-        "id":9490121
+        "dkId":9490121,
+        "id":95
     },
     {
         "Position":"QB",
@@ -870,7 +966,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":8.22,
         "teamAbbrev":"CLE",
-        "id":9490136
+        "dkId":9490136,
+        "id":96
     },
     {
         "Position":"RB",
@@ -879,7 +976,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":12.7,
         "teamAbbrev":"TB",
-        "id":9490230
+        "dkId":9490230,
+        "id":97
     },
     {
         "Position":"WR",
@@ -888,7 +986,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":6.9,
         "teamAbbrev":"TB",
-        "id":9490238
+        "dkId":9490238,
+        "id":98
     },
     {
         "Position":"WR",
@@ -897,7 +996,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":17.65,
         "teamAbbrev":"NYJ",
-        "id":9490355
+        "dkId":9490355,
+        "id":99
     },
     {
         "Position":"TE",
@@ -906,7 +1006,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":2.45,
         "teamAbbrev":"SEA",
-        "id":9490496
+        "dkId":9490496,
+        "id":100
     },
     {
         "Position":"WR",
@@ -915,7 +1016,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":9.9,
         "teamAbbrev":"LAC",
-        "id":9490616
+        "dkId":9490616,
+        "id":101
     },
     {
         "Position":"RB",
@@ -924,7 +1026,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":11.85,
         "teamAbbrev":"NO",
-        "id":9489951
+        "dkId":9489951,
+        "id":102
     },
     {
         "Position":"WR",
@@ -933,7 +1036,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NO",
-        "id":9489963
+        "dkId":9489963,
+        "id":103
     },
     {
         "Position":"QB",
@@ -942,7 +1046,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CHI",
-        "id":9490009
+        "dkId":9490009,
+        "id":104
     },
     {
         "Position":"QB",
@@ -951,7 +1056,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"PIT",
-        "id":9490045
+        "dkId":9490045,
+        "id":105
     },
     {
         "Position":"RB",
@@ -960,7 +1066,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":1,
         "teamAbbrev":"PIT",
-        "id":9490049
+        "dkId":9490049,
+        "id":106
     },
     {
         "Position":"WR",
@@ -969,7 +1076,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":12.1,
         "teamAbbrev":"ATL",
-        "id":9490088
+        "dkId":9490088,
+        "id":107
     },
     {
         "Position":"QB",
@@ -978,7 +1086,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":6.68,
         "teamAbbrev":"MIN",
-        "id":9490196
+        "dkId":9490196,
+        "id":108
     },
     {
         "Position":"RB",
@@ -987,7 +1096,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"TB",
-        "id":9490228
+        "dkId":9490228,
+        "id":109
     },
     {
         "Position":"QB",
@@ -996,7 +1106,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"MIA",
-        "id":9490320
+        "dkId":9490320,
+        "id":110
     },
     {
         "Position":"QB",
@@ -1005,7 +1116,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":14.11,
         "teamAbbrev":"NYJ",
-        "id":9490346
+        "dkId":9490346,
+        "id":111
     },
     {
         "Position":"QB",
@@ -1014,7 +1126,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NYG",
-        "id":9490382
+        "dkId":9490382,
+        "id":112
     },
     {
         "Position":"RB",
@@ -1023,7 +1136,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":5.25,
         "teamAbbrev":"CIN",
-        "id":9490511
+        "dkId":9490511,
+        "id":113
     },
     {
         "Position":"QB",
@@ -1032,7 +1146,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"LAC",
-        "id":9490604
+        "dkId":9490604,
+        "id":114
     },
     {
         "Position":"RB",
@@ -1041,7 +1156,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":3.85,
         "teamAbbrev":"WAS",
-        "id":9490665
+        "dkId":9490665,
+        "id":115
     },
     {
         "Position":"RB",
@@ -1050,7 +1166,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":20.6,
         "teamAbbrev":"WAS",
-        "id":9490667
+        "dkId":9490667,
+        "id":116
     },
     {
         "Position":"QB",
@@ -1059,7 +1176,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":-0.2,
         "teamAbbrev":"TB",
-        "id":9490227
+        "dkId":9490227,
+        "id":117
     },
     {
         "Position":"QB",
@@ -1068,7 +1186,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0.48,
         "teamAbbrev":"HOU",
-        "id":9490257
+        "dkId":9490257,
+        "id":118
     },
     {
         "Position":"WR",
@@ -1077,7 +1196,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":11.7,
         "teamAbbrev":"MIA",
-        "id":9490333
+        "dkId":9490333,
+        "id":119
     },
     {
         "Position":"TE",
@@ -1086,7 +1206,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":15.4,
         "teamAbbrev":"TEN",
-        "id":9490463
+        "dkId":9490463,
+        "id":120
     },
     {
         "Position":"RB",
@@ -1095,7 +1216,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":1.5,
         "teamAbbrev":"GB",
-        "id":9490544
+        "dkId":9490544,
+        "id":121
     },
     {
         "Position":"WR",
@@ -1104,7 +1226,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":10.15,
         "teamAbbrev":"CHI",
-        "id":9490023
+        "dkId":9490023,
+        "id":122
     },
     {
         "Position":"QB",
@@ -1113,7 +1236,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"ATL",
-        "id":9490075
+        "dkId":9490075,
+        "id":123
     },
     {
         "Position":"QB",
@@ -1122,7 +1246,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":3.32,
         "teamAbbrev":"IND",
-        "id":9490170
+        "dkId":9490170,
+        "id":124
     },
     {
         "Position":"RB",
@@ -1131,7 +1256,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":9.85,
         "teamAbbrev":"NYJ",
-        "id":9490351
+        "dkId":9490351,
+        "id":125
     },
     {
         "Position":"QB",
@@ -1140,7 +1266,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"PHI",
-        "id":9490415
+        "dkId":9490415,
+        "id":126
     },
     {
         "Position":"QB",
@@ -1149,7 +1276,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"TEN",
-        "id":9490444
+        "dkId":9490444,
+        "id":127
     },
     {
         "Position":"QB",
@@ -1158,7 +1286,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"SEA",
-        "id":9490473
+        "dkId":9490473,
+        "id":128
     },
     {
         "Position":"WR",
@@ -1167,7 +1296,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":7.1,
         "teamAbbrev":"SEA",
-        "id":9490490
+        "dkId":9490490,
+        "id":129
     },
     {
         "Position":"QB",
@@ -1176,7 +1306,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"OAK",
-        "id":9490634
+        "dkId":9490634,
+        "id":130
     },
     {
         "Position":"QB",
@@ -1185,7 +1316,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"DEN",
-        "id":9489917
+        "dkId":9489917,
+        "id":131
     },
     {
         "Position":"RB",
@@ -1194,7 +1326,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":4.6,
         "teamAbbrev":"DEN",
-        "id":9489921
+        "dkId":9489921,
+        "id":132
     },
     {
         "Position":"WR",
@@ -1203,7 +1336,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":7.4,
         "teamAbbrev":"CAR",
-        "id":9489993
+        "dkId":9489993,
+        "id":133
     },
     {
         "Position":"QB",
@@ -1212,7 +1346,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"DET",
-        "id":9490106
+        "dkId":9490106,
+        "id":134
     },
     {
         "Position":"WR",
@@ -1221,7 +1356,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":10.7,
         "teamAbbrev":"DET",
-        "id":9490125
+        "dkId":9490125,
+        "id":135
     },
     {
         "Position":"RB",
@@ -1230,7 +1366,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":7.5,
         "teamAbbrev":"CLE",
-        "id":9490139
+        "dkId":9490139,
+        "id":136
     },
     {
         "Position":"RB",
@@ -1239,7 +1376,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":8.4,
         "teamAbbrev":"IND",
-        "id":9490171
+        "dkId":9490171,
+        "id":137
     },
     {
         "Position":"TE",
@@ -1248,7 +1386,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":10.05,
         "teamAbbrev":"MIN",
-        "id":9490217
+        "dkId":9490217,
+        "id":138
     },
     {
         "Position":"RB",
@@ -1257,7 +1396,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":5.1,
         "teamAbbrev":"NYJ",
-        "id":9490349
+        "dkId":9490349,
+        "id":139
     },
     {
         "Position":"WR",
@@ -1266,7 +1406,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":14.25,
         "teamAbbrev":"PHI",
-        "id":9490426
+        "dkId":9490426,
+        "id":140
     },
     {
         "Position":"WR",
@@ -1275,7 +1416,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":9.7,
         "teamAbbrev":"TEN",
-        "id":9490453
+        "dkId":9490453,
+        "id":141
     },
     {
         "Position":"QB",
@@ -1284,7 +1426,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"GB",
-        "id":9490541
+        "dkId":9490541,
+        "id":142
     },
     {
         "Position":"RB",
@@ -1293,7 +1436,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":5.4,
         "teamAbbrev":"WAS",
-        "id":9490663
+        "dkId":9490663,
+        "id":143
     },
     {
         "Position":"WR",
@@ -1302,7 +1446,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":7.6,
         "teamAbbrev":"NO",
-        "id":9489965
+        "dkId":9489965,
+        "id":144
     },
     {
         "Position":"TE",
@@ -1311,7 +1456,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":14.35,
         "teamAbbrev":"NO",
-        "id":9489973
+        "dkId":9489973,
+        "id":145
     },
     {
         "Position":"WR",
@@ -1320,7 +1466,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":1.75,
         "teamAbbrev":"CLE",
-        "id":9490149
+        "dkId":9490149,
+        "id":146
     },
     {
         "Position":"QB",
@@ -1329,7 +1476,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NYJ",
-        "id":9490347
+        "dkId":9490347,
+        "id":147
     },
     {
         "Position":"WR",
@@ -1338,7 +1486,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":9.9,
         "teamAbbrev":"SEA",
-        "id":9490488
+        "dkId":9490488,
+        "id":148
     },
     {
         "Position":"RB",
@@ -1347,7 +1496,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":11.35,
         "teamAbbrev":"OAK",
-        "id":9490640
+        "dkId":9490640,
+        "id":149
     },
     {
         "Position":"QB",
@@ -1356,7 +1506,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"BUF",
-        "id":9489885
+        "dkId":9489885,
+        "id":150
     },
     {
         "Position":"QB",
@@ -1365,7 +1516,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"BUF",
-        "id":9489886
+        "dkId":9489886,
+        "id":151
     },
     {
         "Position":"QB",
@@ -1374,7 +1526,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"DEN",
-        "id":9489918
+        "dkId":9489918,
+        "id":152
     },
     {
         "Position":"QB",
@@ -1383,7 +1536,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NO",
-        "id":9489950
+        "dkId":9489950,
+        "id":153
     },
     {
         "Position":"RB",
@@ -1392,7 +1546,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":8.1,
         "teamAbbrev":"NO",
-        "id":9489955
+        "dkId":9489955,
+        "id":154
     },
     {
         "Position":"QB",
@@ -1401,7 +1556,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CAR",
-        "id":9489982
+        "dkId":9489982,
+        "id":155
     },
     {
         "Position":"QB",
@@ -1410,7 +1566,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CHI",
-        "id":9490010
+        "dkId":9490010,
+        "id":156
     },
     {
         "Position":"QB",
@@ -1419,7 +1576,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"PIT",
-        "id":9490046
+        "dkId":9490046,
+        "id":157
     },
     {
         "Position":"WR",
@@ -1428,7 +1586,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":5.35,
         "teamAbbrev":"ATL",
-        "id":9490090
+        "dkId":9490090,
+        "id":158
     },
     {
         "Position":"QB",
@@ -1437,7 +1596,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CLE",
-        "id":9490135
+        "dkId":9490135,
+        "id":159
     },
     {
         "Position":"WR",
@@ -1446,7 +1606,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":16.9,
         "teamAbbrev":"CLE",
-        "id":9490145
+        "dkId":9490145,
+        "id":160
     },
     {
         "Position":"WR",
@@ -1455,7 +1616,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CLE",
-        "id":9490151
+        "dkId":9490151,
+        "id":161
     },
     {
         "Position":"QB",
@@ -1464,7 +1626,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"MIN",
-        "id":9490194
+        "dkId":9490194,
+        "id":162
     },
     {
         "Position":"RB",
@@ -1473,7 +1636,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":6.1,
         "teamAbbrev":"MIN",
-        "id":9490201
+        "dkId":9490201,
+        "id":163
     },
     {
         "Position":"RB",
@@ -1482,7 +1646,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":2.2,
         "teamAbbrev":"HOU",
-        "id":9490259
+        "dkId":9490259,
+        "id":164
     },
     {
         "Position":"RB",
@@ -1491,7 +1656,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":8.35,
         "teamAbbrev":"NE",
-        "id":9490294
+        "dkId":9490294,
+        "id":165
     },
     {
         "Position":"WR",
@@ -1500,7 +1666,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":5.25,
         "teamAbbrev":"NE",
-        "id":9490308
+        "dkId":9490308,
+        "id":166
     },
     {
         "Position":"RB",
@@ -1509,7 +1676,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":-0.3,
         "teamAbbrev":"MIA",
-        "id":9490323
+        "dkId":9490323,
+        "id":167
     },
     {
         "Position":"QB",
@@ -1518,7 +1686,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NYJ",
-        "id":9490348
+        "dkId":9490348,
+        "id":168
     },
     {
         "Position":"QB",
@@ -1527,7 +1696,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NYG",
-        "id":9490381
+        "dkId":9490381,
+        "id":169
     },
     {
         "Position":"RB",
@@ -1536,7 +1706,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":11.3,
         "teamAbbrev":"NYG",
-        "id":9490389
+        "dkId":9490389,
+        "id":170
     },
     {
         "Position":"WR",
@@ -1545,7 +1716,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":5.1,
         "teamAbbrev":"TEN",
-        "id":9490455
+        "dkId":9490455,
+        "id":171
     },
     {
         "Position":"RB",
@@ -1554,7 +1726,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":0.4,
         "teamAbbrev":"SEA",
-        "id":9490474
+        "dkId":9490474,
+        "id":172
     },
     {
         "Position":"TE",
@@ -1563,7 +1736,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":8.5,
         "teamAbbrev":"GB",
-        "id":9490564
+        "dkId":9490564,
+        "id":173
     },
     {
         "Position":"QB",
@@ -1572,7 +1746,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"KC",
-        "id":9490573
+        "dkId":9490573,
+        "id":174
     },
     {
         "Position":"RB",
@@ -1581,7 +1756,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":4.75,
         "teamAbbrev":"KC",
-        "id":9490578
+        "dkId":9490578,
+        "id":175
     },
     {
         "Position":"QB",
@@ -1590,7 +1766,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"LAC",
-        "id":9490605
+        "dkId":9490605,
+        "id":176
     },
     {
         "Position":"RB",
@@ -1599,7 +1776,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":2.05,
         "teamAbbrev":"LAC",
-        "id":9490608
+        "dkId":9490608,
+        "id":177
     },
     {
         "Position":"QB",
@@ -1608,7 +1786,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"OAK",
-        "id":9490635
+        "dkId":9490635,
+        "id":178
     },
     {
         "Position":"RB",
@@ -1617,7 +1796,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":5.35,
         "teamAbbrev":"OAK",
-        "id":9490638
+        "dkId":9490638,
+        "id":179
     },
     {
         "Position":"RB",
@@ -1626,7 +1806,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":2.2,
         "teamAbbrev":"NO",
-        "id":9489953
+        "dkId":9489953,
+        "id":180
     },
     {
         "Position":"WR",
@@ -1635,7 +1816,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":10.75,
         "teamAbbrev":"NO",
-        "id":9489967
+        "dkId":9489967,
+        "id":181
     },
     {
         "Position":"RB",
@@ -1644,7 +1826,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":1.9,
         "teamAbbrev":"TB",
-        "id":9490232
+        "dkId":9490232,
+        "id":182
     },
     {
         "Position":"RB",
@@ -1653,7 +1836,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":6.35,
         "teamAbbrev":"PHI",
-        "id":9490416
+        "dkId":9490416,
+        "id":183
     },
     {
         "Position":"RB",
@@ -1662,7 +1846,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":9.15,
         "teamAbbrev":"PHI",
-        "id":9490418
+        "dkId":9490418,
+        "id":184
     },
     {
         "Position":"WR",
@@ -1671,7 +1856,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":7.15,
         "teamAbbrev":"TEN",
-        "id":9490457
+        "dkId":9490457,
+        "id":185
     },
     {
         "Position":"TE",
@@ -1680,7 +1866,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":4.3,
         "teamAbbrev":"CIN",
-        "id":9490533
+        "dkId":9490533,
+        "id":186
     },
     {
         "Position":"TE",
@@ -1689,7 +1876,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":7.5,
         "teamAbbrev":"LAC",
-        "id":9490624
+        "dkId":9490624,
+        "id":187
     },
     {
         "Position":"RB",
@@ -1698,7 +1886,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":7.05,
         "teamAbbrev":"BUF",
-        "id":9489889
+        "dkId":9489889,
+        "id":188
     },
     {
         "Position":"TE",
@@ -1707,7 +1896,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":13.25,
         "teamAbbrev":"ATL",
-        "id":9490098
+        "dkId":9490098,
+        "id":189
     },
     {
         "Position":"RB",
@@ -1716,7 +1906,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":1.55,
         "teamAbbrev":"DET",
-        "id":9490115
+        "dkId":9490115,
+        "id":190
     },
     {
         "Position":"RB",
@@ -1725,7 +1916,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":6.65,
         "teamAbbrev":"IND",
-        "id":9490175
+        "dkId":9490175,
+        "id":191
     },
     {
         "Position":"WR",
@@ -1734,7 +1926,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":4.9,
         "teamAbbrev":"IND",
-        "id":9490179
+        "dkId":9490179,
+        "id":192
     },
     {
         "Position":"RB",
@@ -1743,7 +1936,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"HOU",
-        "id":9490265
+        "dkId":9490265,
+        "id":193
     },
     {
         "Position":"WR",
@@ -1752,7 +1946,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"HOU",
-        "id":9490279
+        "dkId":9490279,
+        "id":194
     },
     {
         "Position":"DST",
@@ -1761,7 +1956,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":1.5,
         "teamAbbrev":"NE",
-        "id":9490318
+        "dkId":9490318,
+        "id":195
     },
     {
         "Position":"RB",
@@ -1770,7 +1966,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"MIA",
-        "id":9490325
+        "dkId":9490325,
+        "id":196
     },
     {
         "Position":"RB",
@@ -1779,7 +1976,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":4.35,
         "teamAbbrev":"NYG",
-        "id":9490385
+        "dkId":9490385,
+        "id":197
     },
     {
         "Position":"RB",
@@ -1788,7 +1986,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":1.5,
         "teamAbbrev":"PHI",
-        "id":9490420
+        "dkId":9490420,
+        "id":198
     },
     {
         "Position":"RB",
@@ -1797,7 +1996,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":6.75,
         "teamAbbrev":"CIN",
-        "id":9490507
+        "dkId":9490507,
+        "id":199
     },
     {
         "Position":"RB",
@@ -1806,7 +2006,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":2.1,
         "teamAbbrev":"IND",
-        "id":9490173
+        "dkId":9490173,
+        "id":200
     },
     {
         "Position":"DST",
@@ -1815,7 +2016,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":2,
         "teamAbbrev":"MIA",
-        "id":9490345
+        "dkId":9490345,
+        "id":201
     },
     {
         "Position":"RB",
@@ -1824,7 +2026,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":3.15,
         "teamAbbrev":"SEA",
-        "id":9490480
+        "dkId":9490480,
+        "id":202
     },
     {
         "Position":"RB",
@@ -1833,7 +2036,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":3.15,
         "teamAbbrev":"CIN",
-        "id":9490509
+        "dkId":9490509,
+        "id":203
     },
     {
         "Position":"WR",
@@ -1842,7 +2046,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":6.2,
         "teamAbbrev":"CIN",
-        "id":9490521
+        "dkId":9490521,
+        "id":204
     },
     {
         "Position":"RB",
@@ -1851,7 +2056,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"GB",
-        "id":9490546
+        "dkId":9490546,
+        "id":205
     },
     {
         "Position":"WR",
@@ -1860,7 +2066,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"LAC",
-        "id":9490618
+        "dkId":9490618,
+        "id":206
     },
     {
         "Position":"RB",
@@ -1869,7 +2076,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"DEN",
-        "id":9489923
+        "dkId":9489923,
+        "id":207
     },
     {
         "Position":"DST",
@@ -1878,7 +2086,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":9,
         "teamAbbrev":"DEN",
-        "id":9489947
+        "dkId":9489947,
+        "id":208
     },
     {
         "Position":"WR",
@@ -1887,7 +2096,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":5.7,
         "teamAbbrev":"PIT",
-        "id":9490059
+        "dkId":9490059,
+        "id":209
     },
     {
         "Position":"TE",
@@ -1896,7 +2106,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":11,
         "teamAbbrev":"IND",
-        "id":9490187
+        "dkId":9490187,
+        "id":210
     },
     {
         "Position":"WR",
@@ -1905,7 +2116,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":4.4,
         "teamAbbrev":"NYJ",
-        "id":9490357
+        "dkId":9490357,
+        "id":211
     },
     {
         "Position":"WR",
@@ -1914,7 +2126,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":7.3,
         "teamAbbrev":"PHI",
-        "id":9490428
+        "dkId":9490428,
+        "id":212
     },
     {
         "Position":"WR",
@@ -1923,7 +2136,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":5.1,
         "teamAbbrev":"TEN",
-        "id":9490459
+        "dkId":9490459,
+        "id":213
     },
     {
         "Position":"WR",
@@ -1932,7 +2146,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":7.05,
         "teamAbbrev":"BUF",
-        "id":9489897
+        "dkId":9489897,
+        "id":214
     },
     {
         "Position":"RB",
@@ -1941,7 +2156,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"DEN",
-        "id":9489925
+        "dkId":9489925,
+        "id":215
     },
     {
         "Position":"WR",
@@ -1950,7 +2166,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":7.45,
         "teamAbbrev":"CAR",
-        "id":9489995
+        "dkId":9489995,
+        "id":216
     },
     {
         "Position":"WR",
@@ -1959,7 +2176,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CHI",
-        "id":9490025
+        "dkId":9490025,
+        "id":217
     },
     {
         "Position":"WR",
@@ -1968,7 +2186,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":9.1,
         "teamAbbrev":"CHI",
-        "id":9490027
+        "dkId":9490027,
+        "id":218
     },
     {
         "Position":"WR",
@@ -1977,7 +2196,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"HOU",
-        "id":9490277
+        "dkId":9490277,
+        "id":219
     },
     {
         "Position":"RB",
@@ -1986,7 +2206,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":2.3,
         "teamAbbrev":"NYJ",
-        "id":9490353
+        "dkId":9490353,
+        "id":220
     },
     {
         "Position":"DST",
@@ -1995,7 +2216,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":7.5,
         "teamAbbrev":"SEA",
-        "id":9490504
+        "dkId":9490504,
+        "id":221
     },
     {
         "Position":"RB",
@@ -2004,7 +2226,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"GB",
-        "id":9490548
+        "dkId":9490548,
+        "id":222
     },
     {
         "Position":"WR",
@@ -2013,7 +2236,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":7.7,
         "teamAbbrev":"LAC",
-        "id":9490620
+        "dkId":9490620,
+        "id":223
     },
     {
         "Position":"WR",
@@ -2022,7 +2246,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":9.1,
         "teamAbbrev":"WAS",
-        "id":9490675
+        "dkId":9490675,
+        "id":224
     },
     {
         "Position":"WR",
@@ -2031,7 +2256,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"WAS",
-        "id":9490677
+        "dkId":9490677,
+        "id":225
     },
     {
         "Position":"TE",
@@ -2040,7 +2266,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":10.3,
         "teamAbbrev":"BUF",
-        "id":9489907
+        "dkId":9489907,
+        "id":226
     },
     {
         "Position":"DST",
@@ -2049,7 +2276,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":13,
         "teamAbbrev":"PIT",
-        "id":9490073
+        "dkId":9490073,
+        "id":227
     },
     {
         "Position":"RB",
@@ -2058,7 +2286,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":2.2,
         "teamAbbrev":"NE",
-        "id":9490296
+        "dkId":9490296,
+        "id":228
     },
     {
         "Position":"WR",
@@ -2067,7 +2296,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":5.5,
         "teamAbbrev":"NYJ",
-        "id":9490359
+        "dkId":9490359,
+        "id":229
     },
     {
         "Position":"RB",
@@ -2076,7 +2306,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":2.65,
         "teamAbbrev":"NYG",
-        "id":9490383
+        "dkId":9490383,
+        "id":230
     },
     {
         "Position":"RB",
@@ -2085,7 +2316,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":0.3,
         "teamAbbrev":"SEA",
-        "id":9490476
+        "dkId":9490476,
+        "id":231
     },
     {
         "Position":"DST",
@@ -2094,7 +2326,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":5.5,
         "teamAbbrev":"GB",
-        "id":9490570
+        "dkId":9490570,
+        "id":232
     },
     {
         "Position":"WR",
@@ -2103,7 +2336,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"LAC",
-        "id":9490622
+        "dkId":9490622,
+        "id":233
     },
     {
         "Position":"WR",
@@ -2112,7 +2346,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":4.45,
         "teamAbbrev":"OAK",
-        "id":9490648
+        "dkId":9490648,
+        "id":234
     },
     {
         "Position":"WR",
@@ -2121,7 +2356,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":7.4,
         "teamAbbrev":"CHI",
-        "id":9490029
+        "dkId":9490029,
+        "id":235
     },
     {
         "Position":"TE",
@@ -2130,7 +2366,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":14.4,
         "teamAbbrev":"PIT",
-        "id":9490067
+        "dkId":9490067,
+        "id":236
     },
     {
         "Position":"RB",
@@ -2139,7 +2376,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"DET",
-        "id":9490107
+        "dkId":9490107,
+        "id":237
     },
     {
         "Position":"TE",
@@ -2148,7 +2386,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":9.05,
         "teamAbbrev":"DET",
-        "id":9490131
+        "dkId":9490131,
+        "id":238
     },
     {
         "Position":"WR",
@@ -2157,7 +2396,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":3.7,
         "teamAbbrev":"IND",
-        "id":9490181
+        "dkId":9490181,
+        "id":239
     },
     {
         "Position":"WR",
@@ -2166,7 +2406,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":4,
         "teamAbbrev":"MIN",
-        "id":9490209
+        "dkId":9490209,
+        "id":240
     },
     {
         "Position":"DST",
@@ -2175,7 +2416,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":2,
         "teamAbbrev":"MIN",
-        "id":9490225
+        "dkId":9490225,
+        "id":241
     },
     {
         "Position":"WR",
@@ -2184,7 +2426,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"HOU",
-        "id":9490271
+        "dkId":9490271,
+        "id":242
     },
     {
         "Position":"WR",
@@ -2193,7 +2436,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":6.35,
         "teamAbbrev":"NYG",
-        "id":9490393
+        "dkId":9490393,
+        "id":243
     },
     {
         "Position":"WR",
@@ -2202,7 +2446,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":2.1,
         "teamAbbrev":"CIN",
-        "id":9490517
+        "dkId":9490517,
+        "id":244
     },
     {
         "Position":"WR",
@@ -2211,7 +2456,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0.2,
         "teamAbbrev":"CIN",
-        "id":9490519
+        "dkId":9490519,
+        "id":245
     },
     {
         "Position":"WR",
@@ -2220,7 +2466,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"GB",
-        "id":9490558
+        "dkId":9490558,
+        "id":246
     },
     {
         "Position":"WR",
@@ -2229,7 +2476,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":1.35,
         "teamAbbrev":"CAR",
-        "id":9489997
+        "dkId":9489997,
+        "id":247
     },
     {
         "Position":"DST",
@@ -2238,7 +2486,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":4.5,
         "teamAbbrev":"IND",
-        "id":9490193
+        "dkId":9490193,
+        "id":248
     },
     {
         "Position":"RB",
@@ -2247,7 +2496,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":0.6,
         "teamAbbrev":"MIN",
-        "id":9490199
+        "dkId":9490199,
+        "id":249
     },
     {
         "Position":"DST",
@@ -2256,7 +2506,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":19,
         "teamAbbrev":"TB",
-        "id":9490256
+        "dkId":9490256,
+        "id":250
     },
     {
         "Position":"TE",
@@ -2265,7 +2516,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":11.65,
         "teamAbbrev":"NYG",
-        "id":9490409
+        "dkId":9490409,
+        "id":251
     },
     {
         "Position":"WR",
@@ -2274,7 +2526,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":7.9,
         "teamAbbrev":"KC",
-        "id":9490586
+        "dkId":9490586,
+        "id":252
     },
     {
         "Position":"WR",
@@ -2283,7 +2536,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":3.45,
         "teamAbbrev":"BUF",
-        "id":9489899
+        "dkId":9489899,
+        "id":253
     },
     {
         "Position":"WR",
@@ -2292,7 +2546,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":4.9,
         "teamAbbrev":"NO",
-        "id":9489971
+        "dkId":9489971,
+        "id":254
     },
     {
         "Position":"WR",
@@ -2301,7 +2556,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CLE",
-        "id":9490153
+        "dkId":9490153,
+        "id":255
     },
     {
         "Position":"WR",
@@ -2310,7 +2566,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":3.8,
         "teamAbbrev":"TB",
-        "id":9490240
+        "dkId":9490240,
+        "id":256
     },
     {
         "Position":"WR",
@@ -2319,7 +2576,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":1.5,
         "teamAbbrev":"HOU",
-        "id":9490275
+        "dkId":9490275,
+        "id":257
     },
     {
         "Position":"WR",
@@ -2328,7 +2586,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":1.5,
         "teamAbbrev":"NYJ",
-        "id":9490361
+        "dkId":9490361,
+        "id":258
     },
     {
         "Position":"DST",
@@ -2337,7 +2596,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":3.5,
         "teamAbbrev":"NYG",
-        "id":9490413
+        "dkId":9490413,
+        "id":259
     },
     {
         "Position":"WR",
@@ -2346,7 +2606,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":5.2,
         "teamAbbrev":"CIN",
-        "id":9490515
+        "dkId":9490515,
+        "id":260
     },
     {
         "Position":"WR",
@@ -2355,7 +2616,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":6.65,
         "teamAbbrev":"KC",
-        "id":9490584
+        "dkId":9490584,
+        "id":261
     },
     {
         "Position":"TE",
@@ -2364,7 +2626,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":8.55,
         "teamAbbrev":"OAK",
-        "id":9490654
+        "dkId":9490654,
+        "id":262
     },
     {
         "Position":"RB",
@@ -2373,7 +2636,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"BUF",
-        "id":9489891
+        "dkId":9489891,
+        "id":263
     },
     {
         "Position":"RB",
@@ -2382,7 +2646,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"BUF",
-        "id":9489893
+        "dkId":9489893,
+        "id":264
     },
     {
         "Position":"RB",
@@ -2391,7 +2656,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0.75,
         "teamAbbrev":"BUF",
-        "id":9489895
+        "dkId":9489895,
+        "id":265
     },
     {
         "Position":"WR",
@@ -2400,7 +2666,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"BUF",
-        "id":9489901
+        "dkId":9489901,
+        "id":266
     },
     {
         "Position":"WR",
@@ -2409,7 +2676,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"BUF",
-        "id":9489903
+        "dkId":9489903,
+        "id":267
     },
     {
         "Position":"WR",
@@ -2418,7 +2686,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":5.45,
         "teamAbbrev":"BUF",
-        "id":9489905
+        "dkId":9489905,
+        "id":268
     },
     {
         "Position":"RB",
@@ -2427,7 +2696,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"DEN",
-        "id":9489927
+        "dkId":9489927,
+        "id":269
     },
     {
         "Position":"WR",
@@ -2436,7 +2706,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"DEN",
-        "id":9489933
+        "dkId":9489933,
+        "id":270
     },
     {
         "Position":"WR",
@@ -2445,7 +2716,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":9.45,
         "teamAbbrev":"DEN",
-        "id":9489935
+        "dkId":9489935,
+        "id":271
     },
     {
         "Position":"WR",
@@ -2454,7 +2726,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":2.1,
         "teamAbbrev":"DEN",
-        "id":9489937
+        "dkId":9489937,
+        "id":272
     },
     {
         "Position":"WR",
@@ -2463,7 +2736,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"DEN",
-        "id":9489939
+        "dkId":9489939,
+        "id":273
     },
     {
         "Position":"RB",
@@ -2472,7 +2746,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NO",
-        "id":9489957
+        "dkId":9489957,
+        "id":274
     },
     {
         "Position":"RB",
@@ -2481,7 +2756,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":0.1,
         "teamAbbrev":"NO",
-        "id":9489959
+        "dkId":9489959,
+        "id":275
     },
     {
         "Position":"WR",
@@ -2490,7 +2766,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NO",
-        "id":9489969
+        "dkId":9489969,
+        "id":276
     },
     {
         "Position":"RB",
@@ -2499,7 +2776,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":0.05,
         "teamAbbrev":"CAR",
-        "id":9489987
+        "dkId":9489987,
+        "id":277
     },
     {
         "Position":"RB",
@@ -2508,7 +2786,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CAR",
-        "id":9489989
+        "dkId":9489989,
+        "id":278
     },
     {
         "Position":"WR",
@@ -2517,7 +2796,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CAR",
-        "id":9489999
+        "dkId":9489999,
+        "id":279
     },
     {
         "Position":"RB",
@@ -2526,7 +2806,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CHI",
-        "id":9490015
+        "dkId":9490015,
+        "id":280
     },
     {
         "Position":"RB",
@@ -2535,7 +2816,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0.35,
         "teamAbbrev":"CHI",
-        "id":9490017
+        "dkId":9490017,
+        "id":281
     },
     {
         "Position":"RB",
@@ -2544,7 +2826,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CHI",
-        "id":9490019
+        "dkId":9490019,
+        "id":282
     },
     {
         "Position":"WR",
@@ -2553,7 +2836,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":4.7,
         "teamAbbrev":"CHI",
-        "id":9490021
+        "dkId":9490021,
+        "id":283
     },
     {
         "Position":"WR",
@@ -2562,7 +2846,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CHI",
-        "id":9490031
+        "dkId":9490031,
+        "id":284
     },
     {
         "Position":"TE",
@@ -2571,7 +2856,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":9.05,
         "teamAbbrev":"CHI",
-        "id":9490033
+        "dkId":9490033,
+        "id":285
     },
     {
         "Position":"RB",
@@ -2580,7 +2866,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0.05,
         "teamAbbrev":"PIT",
-        "id":9490051
+        "dkId":9490051,
+        "id":286
     },
     {
         "Position":"RB",
@@ -2589,7 +2876,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"PIT",
-        "id":9490053
+        "dkId":9490053,
+        "id":287
     },
     {
         "Position":"WR",
@@ -2598,7 +2886,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":5.3,
         "teamAbbrev":"PIT",
-        "id":9490061
+        "dkId":9490061,
+        "id":288
     },
     {
         "Position":"WR",
@@ -2607,7 +2896,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"PIT",
-        "id":9490063
+        "dkId":9490063,
+        "id":289
     },
     {
         "Position":"WR",
@@ -2616,7 +2906,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"PIT",
-        "id":9490065
+        "dkId":9490065,
+        "id":290
     },
     {
         "Position":"RB",
@@ -2625,7 +2916,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"ATL",
-        "id":9490080
+        "dkId":9490080,
+        "id":291
     },
     {
         "Position":"RB",
@@ -2634,7 +2926,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"ATL",
-        "id":9490082
+        "dkId":9490082,
+        "id":292
     },
     {
         "Position":"RB",
@@ -2643,7 +2936,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"ATL",
-        "id":9490084
+        "dkId":9490084,
+        "id":293
     },
     {
         "Position":"WR",
@@ -2652,7 +2946,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"ATL",
-        "id":9490092
+        "dkId":9490092,
+        "id":294
     },
     {
         "Position":"WR",
@@ -2661,7 +2956,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":1.45,
         "teamAbbrev":"ATL",
-        "id":9490094
+        "dkId":9490094,
+        "id":295
     },
     {
         "Position":"WR",
@@ -2670,7 +2966,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"ATL",
-        "id":9490096
+        "dkId":9490096,
+        "id":296
     },
     {
         "Position":"RB",
@@ -2679,7 +2976,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"DET",
-        "id":9490113
+        "dkId":9490113,
+        "id":297
     },
     {
         "Position":"WR",
@@ -2688,7 +2986,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"DET",
-        "id":9490117
+        "dkId":9490117,
+        "id":298
     },
     {
         "Position":"WR",
@@ -2697,7 +2996,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":2.6,
         "teamAbbrev":"DET",
-        "id":9490119
+        "dkId":9490119,
+        "id":299
     },
     {
         "Position":"RB",
@@ -2706,7 +3006,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CLE",
-        "id":9490141
+        "dkId":9490141,
+        "id":300
     },
     {
         "Position":"RB",
@@ -2715,7 +3016,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":1.8,
         "teamAbbrev":"CLE",
-        "id":9490143
+        "dkId":9490143,
+        "id":301
     },
     {
         "Position":"WR",
@@ -2724,7 +3026,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":4.95,
         "teamAbbrev":"CLE",
-        "id":9490155
+        "dkId":9490155,
+        "id":302
     },
     {
         "Position":"WR",
@@ -2733,7 +3036,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CLE",
-        "id":9490157
+        "dkId":9490157,
+        "id":303
     },
     {
         "Position":"WR",
@@ -2742,7 +3046,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CLE",
-        "id":9490159
+        "dkId":9490159,
+        "id":304
     },
     {
         "Position":"DST",
@@ -2751,7 +3056,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":4.5,
         "teamAbbrev":"CLE",
-        "id":9490167
+        "dkId":9490167,
+        "id":305
     },
     {
         "Position":"WR",
@@ -2760,7 +3066,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"IND",
-        "id":9490183
+        "dkId":9490183,
+        "id":306
     },
     {
         "Position":"WR",
@@ -2769,7 +3076,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"IND",
-        "id":9490185
+        "dkId":9490185,
+        "id":307
     },
     {
         "Position":"RB",
@@ -2778,7 +3086,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":3.05,
         "teamAbbrev":"MIN",
-        "id":9490203
+        "dkId":9490203,
+        "id":308
     },
     {
         "Position":"WR",
@@ -2787,7 +3096,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"MIN",
-        "id":9490211
+        "dkId":9490211,
+        "id":309
     },
     {
         "Position":"WR",
@@ -2796,7 +3106,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"MIN",
-        "id":9490213
+        "dkId":9490213,
+        "id":310
     },
     {
         "Position":"WR",
@@ -2805,7 +3116,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":2.5,
         "teamAbbrev":"MIN",
-        "id":9490215
+        "dkId":9490215,
+        "id":311
     },
     {
         "Position":"RB",
@@ -2814,7 +3126,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":4.7,
         "teamAbbrev":"TB",
-        "id":9490234
+        "dkId":9490234,
+        "id":312
     },
     {
         "Position":"WR",
@@ -2823,7 +3136,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"TB",
-        "id":9490242
+        "dkId":9490242,
+        "id":313
     },
     {
         "Position":"WR",
@@ -2832,7 +3146,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"TB",
-        "id":9490244
+        "dkId":9490244,
+        "id":314
     },
     {
         "Position":"TE",
@@ -2841,7 +3156,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":4.4,
         "teamAbbrev":"TB",
-        "id":9490246
+        "dkId":9490246,
+        "id":315
     },
     {
         "Position":"RB",
@@ -2850,7 +3166,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"HOU",
-        "id":9490261
+        "dkId":9490261,
+        "id":316
     },
     {
         "Position":"RB",
@@ -2859,7 +3176,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":5.6,
         "teamAbbrev":"HOU",
-        "id":9490263
+        "dkId":9490263,
+        "id":317
     },
     {
         "Position":"RB",
@@ -2868,7 +3186,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"HOU",
-        "id":9490269
+        "dkId":9490269,
+        "id":318
     },
     {
         "Position":"TE",
@@ -2877,7 +3196,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"HOU",
-        "id":9490283
+        "dkId":9490283,
+        "id":319
     },
     {
         "Position":"RB",
@@ -2886,7 +3206,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0.8,
         "teamAbbrev":"NE",
-        "id":9490298
+        "dkId":9490298,
+        "id":320
     },
     {
         "Position":"RB",
@@ -2895,7 +3216,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NE",
-        "id":9490300
+        "dkId":9490300,
+        "id":321
     },
     {
         "Position":"WR",
@@ -2904,7 +3226,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NE",
-        "id":9490310
+        "dkId":9490310,
+        "id":322
     },
     {
         "Position":"RB",
@@ -2913,7 +3236,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"MIA",
-        "id":9490327
+        "dkId":9490327,
+        "id":323
     },
     {
         "Position":"WR",
@@ -2922,7 +3246,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"MIA",
-        "id":9490335
+        "dkId":9490335,
+        "id":324
     },
     {
         "Position":"WR",
@@ -2931,7 +3256,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"MIA",
-        "id":9490337
+        "dkId":9490337,
+        "id":325
     },
     {
         "Position":"TE",
@@ -2940,7 +3266,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":5.6,
         "teamAbbrev":"MIA",
-        "id":9490339
+        "dkId":9490339,
+        "id":326
     },
     {
         "Position":"WR",
@@ -2949,7 +3276,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":-0.5,
         "teamAbbrev":"NYJ",
-        "id":9490363
+        "dkId":9490363,
+        "id":327
     },
     {
         "Position":"WR",
@@ -2958,7 +3286,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NYJ",
-        "id":9490365
+        "dkId":9490365,
+        "id":328
     },
     {
         "Position":"WR",
@@ -2967,7 +3296,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0.65,
         "teamAbbrev":"NYJ",
-        "id":9490367
+        "dkId":9490367,
+        "id":329
     },
     {
         "Position":"TE",
@@ -2976,7 +3306,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NYJ",
-        "id":9490371
+        "dkId":9490371,
+        "id":330
     },
     {
         "Position":"RB",
@@ -2985,7 +3316,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NYG",
-        "id":9490387
+        "dkId":9490387,
+        "id":331
     },
     {
         "Position":"RB",
@@ -2994,7 +3326,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NYG",
-        "id":9490391
+        "dkId":9490391,
+        "id":332
     },
     {
         "Position":"WR",
@@ -3003,7 +3336,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NYG",
-        "id":9490399
+        "dkId":9490399,
+        "id":333
     },
     {
         "Position":"WR",
@@ -3012,7 +3346,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NYG",
-        "id":9490403
+        "dkId":9490403,
+        "id":334
     },
     {
         "Position":"RB",
@@ -3021,7 +3356,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"PHI",
-        "id":9490422
+        "dkId":9490422,
+        "id":335
     },
     {
         "Position":"WR",
@@ -3030,7 +3366,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"PHI",
-        "id":9490430
+        "dkId":9490430,
+        "id":336
     },
     {
         "Position":"WR",
@@ -3039,7 +3376,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":3.1,
         "teamAbbrev":"PHI",
-        "id":9490432
+        "dkId":9490432,
+        "id":337
     },
     {
         "Position":"WR",
@@ -3048,7 +3386,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"PHI",
-        "id":9490434
+        "dkId":9490434,
+        "id":338
     },
     {
         "Position":"DST",
@@ -3057,7 +3396,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":13,
         "teamAbbrev":"PHI",
-        "id":9490442
+        "dkId":9490442,
+        "id":339
     },
     {
         "Position":"RB",
@@ -3066,7 +3406,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":0.9,
         "teamAbbrev":"TEN",
-        "id":9490449
+        "dkId":9490449,
+        "id":340
     },
     {
         "Position":"RB",
@@ -3075,7 +3416,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":3.15,
         "teamAbbrev":"TEN",
-        "id":9490451
+        "dkId":9490451,
+        "id":341
     },
     {
         "Position":"WR",
@@ -3084,7 +3426,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"TEN",
-        "id":9490461
+        "dkId":9490461,
+        "id":342
     },
     {
         "Position":"RB",
@@ -3093,7 +3436,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"SEA",
-        "id":9490482
+        "dkId":9490482,
+        "id":343
     },
     {
         "Position":"RB",
@@ -3102,7 +3446,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"SEA",
-        "id":9490484
+        "dkId":9490484,
+        "id":344
     },
     {
         "Position":"WR",
@@ -3111,7 +3456,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"SEA",
-        "id":9490492
+        "dkId":9490492,
+        "id":345
     },
     {
         "Position":"WR",
@@ -3120,7 +3466,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":1.3,
         "teamAbbrev":"SEA",
-        "id":9490494
+        "dkId":9490494,
+        "id":346
     },
     {
         "Position":"WR",
@@ -3129,7 +3476,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CIN",
-        "id":9490513
+        "dkId":9490513,
+        "id":347
     },
     {
         "Position":"WR",
@@ -3138,7 +3486,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CIN",
-        "id":9490525
+        "dkId":9490525,
+        "id":348
     },
     {
         "Position":"RB",
@@ -3147,7 +3496,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0.6,
         "teamAbbrev":"GB",
-        "id":9490550
+        "dkId":9490550,
+        "id":349
     },
     {
         "Position":"WR",
@@ -3156,7 +3506,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":5.4,
         "teamAbbrev":"GB",
-        "id":9490560
+        "dkId":9490560,
+        "id":350
     },
     {
         "Position":"WR",
@@ -3165,7 +3516,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0.95,
         "teamAbbrev":"GB",
-        "id":9490562
+        "dkId":9490562,
+        "id":351
     },
     {
         "Position":"RB",
@@ -3174,7 +3526,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"KC",
-        "id":9490574
+        "dkId":9490574,
+        "id":352
     },
     {
         "Position":"RB",
@@ -3183,7 +3536,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"KC",
-        "id":9490580
+        "dkId":9490580,
+        "id":353
     },
     {
         "Position":"WR",
@@ -3192,7 +3546,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0.6,
         "teamAbbrev":"KC",
-        "id":9490588
+        "dkId":9490588,
+        "id":354
     },
     {
         "Position":"WR",
@@ -3201,7 +3556,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"KC",
-        "id":9490590
+        "dkId":9490590,
+        "id":355
     },
     {
         "Position":"WR",
@@ -3210,7 +3566,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"KC",
-        "id":9490592
+        "dkId":9490592,
+        "id":356
     },
     {
         "Position":"RB",
@@ -3219,7 +3576,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":1.9,
         "teamAbbrev":"LAC",
-        "id":9490610
+        "dkId":9490610,
+        "id":357
     },
     {
         "Position":"RB",
@@ -3228,7 +3586,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"LAC",
-        "id":9490612
+        "dkId":9490612,
+        "id":358
     },
     {
         "Position":"TE",
@@ -3237,7 +3596,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":6.4,
         "teamAbbrev":"LAC",
-        "id":9490626
+        "dkId":9490626,
+        "id":359
     },
     {
         "Position":"RB",
@@ -3246,7 +3606,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"OAK",
-        "id":9490642
+        "dkId":9490642,
+        "id":360
     },
     {
         "Position":"WR",
@@ -3255,7 +3616,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"OAK",
-        "id":9490650
+        "dkId":9490650,
+        "id":361
     },
     {
         "Position":"WR",
@@ -3264,7 +3626,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":7.5,
         "teamAbbrev":"OAK",
-        "id":9490652
+        "dkId":9490652,
+        "id":362
     },
     {
         "Position":"RB",
@@ -3273,7 +3636,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"WAS",
-        "id":9490669
+        "dkId":9490669,
+        "id":363
     },
     {
         "Position":"WR",
@@ -3282,7 +3646,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":1.05,
         "teamAbbrev":"WAS",
-        "id":9490679
+        "dkId":9490679,
+        "id":364
     },
     {
         "Position":"TE",
@@ -3291,7 +3656,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":1.15,
         "teamAbbrev":"WAS",
-        "id":9490683
+        "dkId":9490683,
+        "id":365
     },
     {
         "Position":"TE",
@@ -3300,7 +3666,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":3.4,
         "teamAbbrev":"HOU",
-        "id":9490281
+        "dkId":9490281,
+        "id":366
     },
     {
         "Position":"DST",
@@ -3309,7 +3676,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":7,
         "teamAbbrev":"KC",
-        "id":9490602
+        "dkId":9490602,
+        "id":367
     },
     {
         "Position":"TE",
@@ -3318,7 +3686,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"PIT",
-        "id":9490069
+        "dkId":9490069,
+        "id":368
     },
     {
         "Position":"TE",
@@ -3327,7 +3696,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":7.85,
         "teamAbbrev":"CLE",
-        "id":9490161
+        "dkId":9490161,
+        "id":369
     },
     {
         "Position":"DST",
@@ -3336,7 +3706,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":5.5,
         "teamAbbrev":"LAC",
-        "id":9490632
+        "dkId":9490632,
+        "id":370
     },
     {
         "Position":"TE",
@@ -3345,7 +3716,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":7.25,
         "teamAbbrev":"DEN",
-        "id":9489941
+        "dkId":9489941,
+        "id":371
     },
     {
         "Position":"TE",
@@ -3354,7 +3726,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":2.3,
         "teamAbbrev":"CAR",
-        "id":9490003
+        "dkId":9490003,
+        "id":372
     },
     {
         "Position":"TE",
@@ -3363,7 +3736,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":2.7,
         "teamAbbrev":"TB",
-        "id":9490248
+        "dkId":9490248,
+        "id":373
     },
     {
         "Position":"DST",
@@ -3372,7 +3746,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":5.5,
         "teamAbbrev":"TEN",
-        "id":9490471
+        "dkId":9490471,
+        "id":374
     },
     {
         "Position":"TE",
@@ -3381,7 +3756,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":2.1,
         "teamAbbrev":"GB",
-        "id":9490566
+        "dkId":9490566,
+        "id":375
     },
     {
         "Position":"DST",
@@ -3390,7 +3766,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":9.5,
         "teamAbbrev":"BUF",
-        "id":9489915
+        "dkId":9489915,
+        "id":376
     },
     {
         "Position":"DST",
@@ -3399,7 +3776,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":12.5,
         "teamAbbrev":"CAR",
-        "id":9490007
+        "dkId":9490007,
+        "id":377
     },
     {
         "Position":"TE",
@@ -3408,7 +3786,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":8.15,
         "teamAbbrev":"CLE",
-        "id":9490163
+        "dkId":9490163,
+        "id":378
     },
     {
         "Position":"TE",
@@ -3417,7 +3796,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"HOU",
-        "id":9490285
+        "dkId":9490285,
+        "id":379
     },
     {
         "Position":"TE",
@@ -3426,7 +3806,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":3.9,
         "teamAbbrev":"NYJ",
-        "id":9490369
+        "dkId":9490369,
+        "id":380
     },
     {
         "Position":"TE",
@@ -3435,7 +3816,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":5.5,
         "teamAbbrev":"TEN",
-        "id":9490465
+        "dkId":9490465,
+        "id":381
     },
     {
         "Position":"TE",
@@ -3444,7 +3826,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":2.75,
         "teamAbbrev":"SEA",
-        "id":9490498
+        "dkId":9490498,
+        "id":382
     },
     {
         "Position":"TE",
@@ -3453,7 +3836,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":4.75,
         "teamAbbrev":"KC",
-        "id":9490596
+        "dkId":9490596,
+        "id":383
     },
     {
         "Position":"TE",
@@ -3462,7 +3846,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"BUF",
-        "id":9489909
+        "dkId":9489909,
+        "id":384
     },
     {
         "Position":"TE",
@@ -3471,7 +3856,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":1.6,
         "teamAbbrev":"BUF",
-        "id":9489911
+        "dkId":9489911,
+        "id":385
     },
     {
         "Position":"TE",
@@ -3480,7 +3866,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"BUF",
-        "id":9489913
+        "dkId":9489913,
+        "id":386
     },
     {
         "Position":"TE",
@@ -3489,7 +3876,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":3.2,
         "teamAbbrev":"DEN",
-        "id":9489943
+        "dkId":9489943,
+        "id":387
     },
     {
         "Position":"TE",
@@ -3498,7 +3886,8 @@ var players = [
         "GameInfo":"DEN@BUF 01:00PM ET",
         "AvgPointsPerGame":2.75,
         "teamAbbrev":"DEN",
-        "id":9489945
+        "dkId":9489945,
+        "id":388
     },
     {
         "Position":"TE",
@@ -3507,7 +3896,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":2.95,
         "teamAbbrev":"NO",
-        "id":9489975
+        "dkId":9489975,
+        "id":389
     },
     {
         "Position":"TE",
@@ -3516,7 +3906,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":0.9,
         "teamAbbrev":"NO",
-        "id":9489977
+        "dkId":9489977,
+        "id":390
     },
     {
         "Position":"TE",
@@ -3525,7 +3916,8 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CAR",
-        "id":9490005
+        "dkId":9490005,
+        "id":391
     },
     {
         "Position":"TE",
@@ -3534,7 +3926,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CHI",
-        "id":9490035
+        "dkId":9490035,
+        "id":392
     },
     {
         "Position":"TE",
@@ -3543,7 +3936,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":2.55,
         "teamAbbrev":"CHI",
-        "id":9490037
+        "dkId":9490037,
+        "id":393
     },
     {
         "Position":"TE",
@@ -3552,7 +3946,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CHI",
-        "id":9490039
+        "dkId":9490039,
+        "id":394
     },
     {
         "Position":"TE",
@@ -3561,7 +3956,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CHI",
-        "id":9490041
+        "dkId":9490041,
+        "id":395
     },
     {
         "Position":"TE",
@@ -3570,7 +3966,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"PIT",
-        "id":9490071
+        "dkId":9490071,
+        "id":396
     },
     {
         "Position":"TE",
@@ -3579,7 +3976,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"ATL",
-        "id":9490100
+        "dkId":9490100,
+        "id":397
     },
     {
         "Position":"TE",
@@ -3588,7 +3986,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"ATL",
-        "id":9490102
+        "dkId":9490102,
+        "id":398
     },
     {
         "Position":"DST",
@@ -3597,7 +3996,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":9,
         "teamAbbrev":"ATL",
-        "id":9490104
+        "dkId":9490104,
+        "id":399
     },
     {
         "Position":"TE",
@@ -3606,7 +4006,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"DET",
-        "id":9490127
+        "dkId":9490127,
+        "id":400
     },
     {
         "Position":"TE",
@@ -3615,7 +4016,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":0.65,
         "teamAbbrev":"DET",
-        "id":9490129
+        "dkId":9490129,
+        "id":401
     },
     {
         "Position":"TE",
@@ -3624,7 +4026,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":1.5,
         "teamAbbrev":"CLE",
-        "id":9490165
+        "dkId":9490165,
+        "id":402
     },
     {
         "Position":"TE",
@@ -3633,7 +4036,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"IND",
-        "id":9490189
+        "dkId":9490189,
+        "id":403
     },
     {
         "Position":"TE",
@@ -3642,7 +4046,8 @@ var players = [
         "GameInfo":"CLE@IND 01:00PM ET",
         "AvgPointsPerGame":1.5,
         "teamAbbrev":"IND",
-        "id":9490191
+        "dkId":9490191,
+        "id":404
     },
     {
         "Position":"TE",
@@ -3651,7 +4056,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"MIN",
-        "id":9490219
+        "dkId":9490219,
+        "id":405
     },
     {
         "Position":"TE",
@@ -3660,7 +4066,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"MIN",
-        "id":9490221
+        "dkId":9490221,
+        "id":406
     },
     {
         "Position":"TE",
@@ -3669,7 +4076,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"MIN",
-        "id":9490223
+        "dkId":9490223,
+        "id":407
     },
     {
         "Position":"TE",
@@ -3678,7 +4086,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"TB",
-        "id":9490250
+        "dkId":9490250,
+        "id":408
     },
     {
         "Position":"TE",
@@ -3687,7 +4096,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":1.6,
         "teamAbbrev":"TB",
-        "id":9490252
+        "dkId":9490252,
+        "id":409
     },
     {
         "Position":"TE",
@@ -3696,7 +4106,8 @@ var players = [
         "GameInfo":"TB@MIN 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"TB",
-        "id":9490254
+        "dkId":9490254,
+        "id":410
     },
     {
         "Position":"TE",
@@ -3705,7 +4116,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":1.5,
         "teamAbbrev":"NE",
-        "id":9490314
+        "dkId":9490314,
+        "id":411
     },
     {
         "Position":"TE",
@@ -3714,7 +4126,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NE",
-        "id":9490316
+        "dkId":9490316,
+        "id":412
     },
     {
         "Position":"TE",
@@ -3723,7 +4136,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"MIA",
-        "id":9490341
+        "dkId":9490341,
+        "id":413
     },
     {
         "Position":"TE",
@@ -3732,7 +4146,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"MIA",
-        "id":9490343
+        "dkId":9490343,
+        "id":414
     },
     {
         "Position":"TE",
@@ -3741,7 +4156,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":4.5,
         "teamAbbrev":"NYJ",
-        "id":9490373
+        "dkId":9490373,
+        "id":415
     },
     {
         "Position":"TE",
@@ -3750,7 +4166,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":1.8,
         "teamAbbrev":"NYJ",
-        "id":9490375
+        "dkId":9490375,
+        "id":416
     },
     {
         "Position":"TE",
@@ -3759,7 +4176,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NYJ",
-        "id":9490377
+        "dkId":9490377,
+        "id":417
     },
     {
         "Position":"TE",
@@ -3768,7 +4186,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":3,
         "teamAbbrev":"NYG",
-        "id":9490405
+        "dkId":9490405,
+        "id":418
     },
     {
         "Position":"TE",
@@ -3777,7 +4196,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NYG",
-        "id":9490407
+        "dkId":9490407,
+        "id":419
     },
     {
         "Position":"TE",
@@ -3786,7 +4206,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":2.4,
         "teamAbbrev":"NYG",
-        "id":9490411
+        "dkId":9490411,
+        "id":420
     },
     {
         "Position":"TE",
@@ -3795,7 +4216,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":1,
         "teamAbbrev":"PHI",
-        "id":9490438
+        "dkId":9490438,
+        "id":421
     },
     {
         "Position":"TE",
@@ -3804,7 +4226,8 @@ var players = [
         "GameInfo":"NYG@PHI 01:00PM ET",
         "AvgPointsPerGame":1.05,
         "teamAbbrev":"PHI",
-        "id":9490440
+        "dkId":9490440,
+        "id":422
     },
     {
         "Position":"TE",
@@ -3813,7 +4236,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"TEN",
-        "id":9490467
+        "dkId":9490467,
+        "id":423
     },
     {
         "Position":"TE",
@@ -3822,7 +4246,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"TEN",
-        "id":9490469
+        "dkId":9490469,
+        "id":424
     },
     {
         "Position":"TE",
@@ -3831,7 +4256,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":1,
         "teamAbbrev":"SEA",
-        "id":9490500
+        "dkId":9490500,
+        "id":425
     },
     {
         "Position":"TE",
@@ -3840,7 +4266,8 @@ var players = [
         "GameInfo":"SEA@TEN 04:05PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"SEA",
-        "id":9490502
+        "dkId":9490502,
+        "id":426
     },
     {
         "Position":"TE",
@@ -3849,7 +4276,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0.75,
         "teamAbbrev":"CIN",
-        "id":9490527
+        "dkId":9490527,
+        "id":427
     },
     {
         "Position":"TE",
@@ -3858,7 +4286,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CIN",
-        "id":9490529
+        "dkId":9490529,
+        "id":428
     },
     {
         "Position":"TE",
@@ -3867,7 +4296,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CIN",
-        "id":9490531
+        "dkId":9490531,
+        "id":429
     },
     {
         "Position":"TE",
@@ -3876,7 +4306,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CIN",
-        "id":9490535
+        "dkId":9490535,
+        "id":430
     },
     {
         "Position":"TE",
@@ -3885,7 +4316,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"CIN",
-        "id":9490537
+        "dkId":9490537,
+        "id":431
     },
     {
         "Position":"DST",
@@ -3894,7 +4326,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":5.5,
         "teamAbbrev":"CIN",
-        "id":9490539
+        "dkId":9490539,
+        "id":432
     },
     {
         "Position":"TE",
@@ -3903,7 +4336,8 @@ var players = [
         "GameInfo":"CIN@GB 04:25PM ET",
         "AvgPointsPerGame":1.9,
         "teamAbbrev":"GB",
-        "id":9490568
+        "dkId":9490568,
+        "id":433
     },
     {
         "Position":"TE",
@@ -3912,7 +4346,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"KC",
-        "id":9490598
+        "dkId":9490598,
+        "id":434
     },
     {
         "Position":"TE",
@@ -3921,7 +4356,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"KC",
-        "id":9490600
+        "dkId":9490600,
+        "id":435
     },
     {
         "Position":"TE",
@@ -3930,7 +4366,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":2,
         "teamAbbrev":"LAC",
-        "id":9490628
+        "dkId":9490628,
+        "id":436
     },
     {
         "Position":"TE",
@@ -3939,7 +4376,8 @@ var players = [
         "GameInfo":"KC@LAC 04:25PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"LAC",
-        "id":9490630
+        "dkId":9490630,
+        "id":437
     },
     {
         "Position":"TE",
@@ -3948,7 +4386,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":0.95,
         "teamAbbrev":"OAK",
-        "id":9490656
+        "dkId":9490656,
+        "id":438
     },
     {
         "Position":"TE",
@@ -3957,7 +4396,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":0.85,
         "teamAbbrev":"OAK",
-        "id":9490658
+        "dkId":9490658,
+        "id":439
     },
     {
         "Position":"DST",
@@ -3966,7 +4406,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":5.5,
         "teamAbbrev":"OAK",
-        "id":9490660
+        "dkId":9490660,
+        "id":440
     },
     {
         "Position":"TE",
@@ -3975,7 +4416,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"WAS",
-        "id":9490685
+        "dkId":9490685,
+        "id":441
     },
     {
         "Position":"TE",
@@ -3984,7 +4426,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"WAS",
-        "id":9490687
+        "dkId":9490687,
+        "id":442
     },
     {
         "Position":"DST",
@@ -3993,7 +4436,8 @@ var players = [
         "GameInfo":"ATL@DET 01:00PM ET",
         "AvgPointsPerGame":16.5,
         "teamAbbrev":"DET",
-        "id":9490133
+        "dkId":9490133,
+        "id":443
     },
     {
         "Position":"DST",
@@ -4002,7 +4446,8 @@ var players = [
         "GameInfo":"OAK@WAS 08:30PM ET",
         "AvgPointsPerGame":9.5,
         "teamAbbrev":"WAS",
-        "id":9490689
+        "dkId":9490689,
+        "id":444
     },
     {
         "Position":"DST",
@@ -4011,7 +4456,8 @@ var players = [
         "GameInfo":"HOU@NE 01:00PM ET",
         "AvgPointsPerGame":4.5,
         "teamAbbrev":"HOU",
-        "id":9490287
+        "dkId":9490287,
+        "id":445
     },
     {
         "Position":"DST",
@@ -4020,7 +4466,8 @@ var players = [
         "GameInfo":"PIT@CHI 01:00PM ET",
         "AvgPointsPerGame":3,
         "teamAbbrev":"CHI",
-        "id":9490043
+        "dkId":9490043,
+        "id":446
     },
     {
         "Position":"DST",
@@ -4029,7 +4476,8 @@ var players = [
         "GameInfo":"MIA@NYJ 01:00PM ET",
         "AvgPointsPerGame":0,
         "teamAbbrev":"NYJ",
-        "id":9490379
+        "dkId":9490379,
+        "id":447
     },
     {
         "Position":"DST",
@@ -4038,6 +4486,7 @@ var players = [
         "GameInfo":"NO@CAR 01:00PM ET",
         "AvgPointsPerGame":-1,
         "teamAbbrev":"NO",
-        "id":9489979
+        "dkId":9489979,
+        "id":448
     }
 ]
