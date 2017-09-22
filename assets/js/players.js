@@ -6,20 +6,20 @@ function printPlayers(pos){
 	switch(pos){
 		case 'ALL':
 			for(var i=0; i<players.length; i++){
-				list += printPlayer(players[i]);
+				list += printPlayer(players[i], i);
 			}
 			break;
 		case 'FLEX':
 			for(var i=0; i<players.length; i++){
 				if(players[i].Position == 'RB' || players[i].Position == 'WR' || players[i].Position =='TE'){
-					list += printPlayer(players[i]);
+					list += printPlayer(players[i], i);
 				}
 			}
 			break;
 		default:
-			for(var i=0; i<players.length; i++){
+			for(var i=0; i<players.length; i++, i){
 				if(pos == players[i].Position){
-					list += printPlayer(players[i]);
+					list += printPlayer(players[i], i);
 				}
 			}
 			break;
@@ -28,9 +28,9 @@ function printPlayers(pos){
 	$('.players').append(list);
 }
 
-function printPlayer(player){
+function printPlayer(player, i){
 	var row = '';
-	row += '<tr class="player" id="' + player.id + '">';
+	row += '<tr class="player" id="' + i + '">';
 	row += '<td class="position">' + player.Position + '</td>';
 	row += '<td class="name">' + player.Name + '</td>';
 	row += '<td class="team">' + player.teamAbbrev + '</td>';

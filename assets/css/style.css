@@ -128,8 +128,8 @@ td.gameinfo{
 }
 .lineup{
   float: left;
-  margin: 0 0.5% 20px 0.5%;
-  width: 24%;
+  margin: 0 0.66% 20px 0.66%;
+  width: 32%;
 }
 .lineup th{
   background: #333;

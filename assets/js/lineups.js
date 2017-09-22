@@ -68,10 +68,41 @@ function findCost(roster){
 
 /* ADDING TO LINEUPS */
 function addPlayerToLineups(n, id){
-	console.log(id);
+	var player = players[id];
+	var position = player.Position;
+	var positionAvailable = '';
+
 	for(var i=0; i<n; i++){
-		lineups[i].roster.QB = players[7];
+
+		if(position === 'RB' || position === 'WR'){
+			switch(position){
+				case 'RB':
+					if(lineups[i].roster.RB1){
+						if(lineups[i].roster.RB2){
+							// RB FULL
+						}
+						positionAvailable = 'RB2';
+					}
+					else positionAvailable = 'RB1';
+					break;
+				case 'WR':
+					if(lineups[i].roster.WR1){
+						if(lineups[i].roster.WR2){
+							if(lineups[i].roster.WR3){
+								// WR FULL
+							}
+							positionAvailable = 'WR3';
+						}
+						else positionAvailable = 'WR2';
+					}
+					else positionAvailable = 'WR1';
+					break;
+			}
+			lineups[i].roster[positionAvailable] = player;
+		}
+		else lineups[i].roster[position] = player;
 	}
+
 	printLineups();
 }
 
