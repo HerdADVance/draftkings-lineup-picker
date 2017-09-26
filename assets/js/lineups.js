@@ -6,9 +6,7 @@ function buildLineups(n){
 }
 
 function newLineup(){
-	newLineupId ++;
 	return{
-		id: newLineupId,
 	 	roster: {
 	 		QB: null,
 			RB1: null,
@@ -26,19 +24,19 @@ function newLineup(){
 function printLineups(){
 	$('.lineups-wrap').empty();
 	for(var i=0; i<lineups.length; i++){
-		printLineup(lineups[i]);
+		printLineup(lineups[i], i);
 	}
 }
 
-function printLineup(lineup){
+function printLineup(lineup, numberLineup){
 	var cost = findCost(lineup.roster);
 	var costRemaining = 50000 - cost;
 
 	if(cost > 50000){ var costStatus = "cost-over"}
 		else{ var costStatus = "cost-under" }
 
-	var output = '<table class="lineup ' + costStatus + '" id="' + lineup.id + '">';
-	output += '<tr><th colspan="4">Lineup #' + lineup.id + '</th></tr>'; 
+	var output = '<table class="lineup ' + costStatus + '" id="' + numberLineup + '">';
+	output += '<tr><th colspan="4">Lineup #' + (numberLineup + 1) + '</th></tr>'; 
 	
 	for(var key in lineup.roster){
 		output += '<tr class="lineup-player"><td>' + key + '</td><td>';
@@ -72,7 +70,20 @@ function addPlayerToLineups(n, id){
 	var position = player.Position;
 	var positionAvailable = '';
 
-	for(var i=0; i<n; i++){
+	var alreadySelected = isAlreadySelected(player.id);
+
+	var selectedPlayer = {
+		id: player.id,
+		name: player.Name,
+		lineupsIn: []  
+	}
+
+	var i = -1;
+	var numAddedTo = 0;
+
+	while(numAddedTo < n && i < lineups.length - 1){
+
+		i++;
 
 		if(position === 'RB' || position === 'WR'){
 			switch(position){
@@ -133,10 +144,32 @@ function addPlayerToLineups(n, id){
 		}
 
 		lineups[i].roster[positionAvailable] = player;
+		selectedPlayer.lineupsIn.push(i);
+		numAddedTo ++;
 	
 	}
 
+	console.log(player.Name + " was added to " + numAddedTo + " lineups.");
+
+	selectedPlayers.push(selectedPlayer);
+	console.log(selectedPlayers);
+
+	$('.selected-players').empty();
+	for(var i=0; i<selectedPlayers.length; i++){
+		$('.selected-players').append('<option>' + selectedPlayers[i].name + '</option>')
+	}
+
 	printLineups();
+
+}
+
+function isAlreadySelected(playerId){
+	for(var i=0; i<selectedPlayers.length; i++){
+		if(playerId === selectedPlayers[i].id){
+			return selectedPlayers[i].lineupsIn;
+		}
+	}
+	return false;
 }
 
 function getPlayerLineupStats(id){
@@ -178,7 +211,7 @@ $('.lineups-number').change(function() {
 
 /* INITIALIZE */
 var lineups = [];
-var newLineupId = 0;
+var selectedPlayers = [];
 
 buildLineups(20);
 
