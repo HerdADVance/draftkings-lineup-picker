@@ -120,12 +120,22 @@ td.gameinfo{
   min-height: 100px;
 }
 .player-add-currently-in{
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
 }
 .player-add-slider{
   margin: 10px 5%;
   width: 90%;
+}
+.player-add-slider span{
+  border: 0 !important;
+}
+.player-add-slider-number{
+  background: none;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  width: 40px;
 }
 .player-add-delta{
   color: darkgreen;

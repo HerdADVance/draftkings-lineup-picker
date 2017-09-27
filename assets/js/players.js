@@ -59,11 +59,23 @@ $(".players").delegate(".player", "click", function(){
 
 	$('.player-add-name').text(players[playerId].Name);
 
+	$('.player-add-total-lineups').text(lineups.length);
+
+
 	var foundPlayer = findSelectedPlayer(playerId);
 	if(foundPlayer){
-		$('.player-add-number-lineups').text(foundPlayer[0].lineupsIn.length);
+		var numLineups = foundPlayer[0].lineupsIn.length
+		$('.player-add-number-lineups').text(numLineups);
+		$('.player-add-slider').slider("option", "value", numLineups);
+		$(".player-add-slider-number").val(numLineups);
+		$(".player-add-slider-pct").text(((numLineups/lineups.length) * 100).toFixed(2));
 	}
-	else $('.player-add-number-lineups').text(0);
+	else{
+		$('.player-add-number-lineups').text(0);
+		$('.player-add-slider').slider("option", "value", 0);
+		$(".player-add-slider-number").val(0);
+		$(".player-add-slider-pct").text(0);
+	} 
 
 
 	getPlayerLineupStats(playerId);
@@ -85,11 +97,12 @@ printPlayers('ALL');
 
 $( ".player-add-slider" ).slider({
 	animate: "fast",
-	value: 20,
+	value: 0,
 	min: 0,
 	max: lineups.length,
 	stop: function( event, ui ) {
-	  $( ".stopvalue" ).val(ui.value);
+	  $(".player-add-slider-number").val(ui.value);
+	  $(".player-add-slider-pct").text(((ui.value/lineups.length) * 100).toFixed(2));
 	}
 });
 

@@ -254,7 +254,7 @@ var selectedPlayers = [
 }
 ];
 
-buildLineups(50);
+buildLineups(25);
 
 
 
