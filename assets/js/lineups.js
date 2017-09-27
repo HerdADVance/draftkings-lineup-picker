@@ -85,6 +85,13 @@ function addPlayerToLineups(n, id){
 
 		i++;
 
+		if(alreadySelected){
+			var alreadyInLineup = isAlreadyInLineup(player.id, lineups[i]);
+			if(alreadyInLineup){
+				continue;
+			}
+		}
+
 		if(position === 'RB' || position === 'WR'){
 			switch(position){
 				case 'RB':
@@ -144,7 +151,9 @@ function addPlayerToLineups(n, id){
 		}
 
 		lineups[i].roster[positionAvailable] = player;
+		
 		selectedPlayer.lineupsIn.push(i);
+		
 		numAddedTo ++;
 	
 	}
@@ -167,6 +176,17 @@ function isAlreadySelected(playerId){
 	for(var i=0; i<selectedPlayers.length; i++){
 		if(playerId === selectedPlayers[i].id){
 			return selectedPlayers[i].lineupsIn;
+		}
+	}
+	return false;
+}
+
+function isAlreadyInLineup(playerId, lineup){
+	for(var key in lineup.roster){ 
+		if(lineup.roster[key]){
+			if(lineup.roster[key].id === playerId){
+				return true;
+			}
 		}
 	}
 	return false;
@@ -213,7 +233,7 @@ $('.lineups-number').change(function() {
 var lineups = [];
 var selectedPlayers = [];
 
-buildLineups(20);
+buildLineups(150);
 
 
 
