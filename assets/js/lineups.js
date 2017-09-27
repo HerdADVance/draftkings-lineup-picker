@@ -192,6 +192,16 @@ function isAlreadyInLineup(playerId, lineup){
 	return false;
 }
 
+function getPlayerLineups(playerId){
+	//findSelectedPlayer(playerId);
+}
+
+function findSelectedPlayer(playerId){
+	var foundPlayer = selectedPlayers.filter(function (player) { return player.id == playerId });
+	if(foundPlayer.length === 1) return foundPlayer;
+		else return false;
+}
+
 function getPlayerLineupStats(id){
 	var player = players[id];
 	var playerFound = 0;
@@ -231,9 +241,20 @@ $('.lineups-number').change(function() {
 
 /* INITIALIZE */
 var lineups = [];
-var selectedPlayers = [];
+var selectedPlayers = [
+{
+	id: 2,
+	name: "Le'Veon Bell",
+	lineupsIn: [1,2,3]
+},
+{
+	id: 5,
+	name: "Kareem Hunt",
+	lineupsIn: [5]
+}
+];
 
-buildLineups(10);
+buildLineups(50);
 
 
 

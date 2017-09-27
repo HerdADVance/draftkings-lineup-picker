@@ -57,6 +57,15 @@ $(".players").delegate(".player", "click", function(){
 	var playerId = $(this).attr('id');
 	$('.player-add-id').val(playerId); 
 
+	$('.player-add-name').text(players[playerId].Name);
+
+	var foundPlayer = findSelectedPlayer(playerId);
+	if(foundPlayer){
+		$('.player-add-number-lineups').text(foundPlayer[0].lineupsIn.length);
+	}
+	else $('.player-add-number-lineups').text(0);
+
+
 	getPlayerLineupStats(playerId);
 });
 
@@ -74,12 +83,16 @@ $('.player-add-button').click(function(){
 /* INITIALIZE */
 printPlayers('ALL');
 
-$( ".player-add-number" ).slider({
-  animate: "fast",
-  value: 4
+$( ".player-add-slider" ).slider({
+	animate: "fast",
+	value: 20,
+	min: 0,
+	max: lineups.length,
+	stop: function( event, ui ) {
+	  $( ".stopvalue" ).val(ui.value);
+	}
 });
 
-var value = $( ".player-add-number" ).slider( "values", 0);
+var value = $( ".player-add-slider" ).slider( "values", 0);
 $//( ".player-add-number" ).slider( "option", "value", 10 );
 
-console.log(value);

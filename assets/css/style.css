@@ -114,8 +114,23 @@ td.gameinfo{
 
 /* PLAYER ADD EXPANDED AREA ON CLICK */
 .player-add{
+  background: #666 !important;
+  color: #FFF;
   display: none;
   min-height: 100px;
+}
+.player-add-currently-in{
+  font-size: 10px;
+  font-weight: bold;
+}
+.player-add-slider{
+  margin: 10px 5%;
+  width: 90%;
+}
+.player-add-delta{
+  color: darkgreen;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 
