@@ -74,3 +74,12 @@ $('.player-add-button').click(function(){
 /* INITIALIZE */
 printPlayers('ALL');
 
+$( ".player-add-number" ).slider({
+  animate: "fast",
+  value: 4
+});
+
+var value = $( ".player-add-number" ).slider( "values", 0);
+$//( ".player-add-number" ).slider( "option", "value", 10 );
+
+console.log(value);

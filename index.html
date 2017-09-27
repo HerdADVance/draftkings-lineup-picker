@@ -6,6 +6,7 @@
 	<!--link rel="icon" type="image/png" href=".png"-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/excite-bike/jquery-ui.css">
 </head>
 
 <body>
@@ -31,13 +32,16 @@
 					<tr class="player-add">
 						<td colspan="6">
 							<p>In <span class="player-in-lineups"></span> of <span class="total-lineups"></span> lineups.</p>
-							<p>Add to <input type="number" class="player-add-number" min="0" step="1"/> of <span class="available-lineups"></span> available lineups.</p>
+							<p>Add to <div class="player-add-number" /></div> of <span class="available-lineups"></span> available lineups.</p>
 							<button class="player-add-button">Add</button>
 							<input type="hidden" class="player-add-id" />
 							<table>
 								<tr>
 									<td>
 										<select class="selected-players"></select>
+									</td>
+									<td>
+										<input type="number" class="" /> / <span>20</span>(<span></span>%)
 									</td>
 								</tr>
 							</table>
@@ -58,6 +62,10 @@
 	</div>
 	
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script> 
+	<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
 	<script src="assets/js/players-data.js"></script>
 	<script src="assets/js/players.js"></script>
 	<script src="assets/js/lineups.js"></script>

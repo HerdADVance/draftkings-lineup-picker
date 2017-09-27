@@ -233,7 +233,7 @@ $('.lineups-number').change(function() {
 var lineups = [];
 var selectedPlayers = [];
 
-buildLineups(150);
+buildLineups(10);
 
 
 
