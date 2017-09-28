@@ -148,6 +148,9 @@ td.gameinfo{
   margin: 10px 0;
   padding: 5px;
 }
+#delta-minus{
+  background: lightcoral;
+}
 
 
 /* LINEUP TABLES */

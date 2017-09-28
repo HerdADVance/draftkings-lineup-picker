@@ -84,15 +84,16 @@ $(".players").delegate(".player", "click", function(){
 });
 
 $('.player-add-button').click(function(){
-	var n = $('.player-add-delta').text();
+	var plusMinus = $(this).attr('id');	
+	var n = $('#' + plusMinus + ' .player-add-delta').text();
 	var id = $('.player-add-id').val();
-	console.log(n + " " + id)
-	addPlayerToLineups(n, id);
-});
+	if (plusMinus == 'delta-plus') var add = true;
+		else var add = false; 
 
-// function clickedPlayer(){
-// 	alert ('CLICKED PLAYER');
-// }
+	console.log(n);
+	
+	addPlayerToLineups(n, id, add);
+});
 
 
 /* INITIALIZE */
@@ -104,11 +105,22 @@ $( ".player-add-slider" ).slider({
 	min: 0,
 	max: lineups.length,
 	stop: function( event, ui ) {
-		$(".player-add-button").show();
-	  $(".player-add-slider-number").val(ui.value);
-	  $(".player-add-slider-pct").text(((ui.value/lineups.length) * 100).toFixed(2));
-	  var currentLineups = $('.player-add-number-lineups').text();
-	  $(".player-add-delta").text(ui.value - currentLineups);
+		
+		$(".player-add-button").hide();
+
+		$(".player-add-slider-number").val(ui.value);
+		$(".player-add-slider-pct").text(((ui.value/lineups.length) * 100).toFixed(2));
+
+		var currentLineups = $('.player-add-number-lineups').text();
+		var delta = ui.value - currentLineups;
+
+		console.log(delta);
+
+		if(delta > 0) $("#delta-plus").show();
+			else if (delta < 0) $('#delta-minus').show();
+		
+		$(".player-add-delta").text(Math.abs(delta));
+	
 	}
 });
 

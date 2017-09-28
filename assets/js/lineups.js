@@ -65,7 +65,8 @@ function findCost(roster){
 
 
 /* ADDING TO LINEUPS */
-function addPlayerToLineups(n, id){
+function addPlayerToLineups(n, id, add){
+	console.log(add);
 	var player = players[id];
 	var position = player.Position;
 	var positionAvailable = '';
@@ -241,18 +242,7 @@ $('.lineups-number').change(function() {
 
 /* INITIALIZE */
 var lineups = [];
-var selectedPlayers = [
-{
-	id: 2,
-	name: "Le'Veon Bell",
-	lineupsIn: [1,2,3]
-},
-{
-	id: 5,
-	name: "Kareem Hunt",
-	lineupsIn: [5]
-}
-];
+var selectedPlayers = [];
 
 buildLineups(25);
 
