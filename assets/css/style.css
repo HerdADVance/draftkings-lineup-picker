@@ -40,6 +40,9 @@ td{
   text-align: center;
   vertical-align: middle;
 }
+button{
+  cursor: pointer;
+}
 .clickable tr:hover, .clickable li:hover{
   cursor: pointer;
 }
@@ -137,10 +140,13 @@ td.gameinfo{
   text-align: center;
   width: 40px;
 }
-.player-add-delta{
-  color: darkgreen;
-  font-size: 10px;
+.player-add-button{
+  background: lightgreen;
+  color: 000;
+  font-size: 12px;
   font-weight: bold;
+  margin: 10px 0;
+  padding: 5px;
 }
 
 

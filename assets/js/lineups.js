@@ -70,9 +70,9 @@ function addPlayerToLineups(n, id){
 	var position = player.Position;
 	var positionAvailable = '';
 
-	var alreadySelected = isAlreadySelected(player.id);
+	var alreadySelected = isAlreadySelected(player.id); 
 
-	var selectedPlayer = {
+	var selectedPlayer = { // Start here
 		id: player.id,
 		name: player.Name,
 		lineupsIn: []  
@@ -160,7 +160,7 @@ function addPlayerToLineups(n, id){
 
 	console.log(player.Name + " was added to " + numAddedTo + " lineups.");
 
-	selectedPlayers.push(selectedPlayer);
+	if(!alreadySelected) selectedPlayers.push(selectedPlayer);
 	console.log(selectedPlayers);
 
 	$('.selected-players').empty();

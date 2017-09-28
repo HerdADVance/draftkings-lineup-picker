@@ -50,6 +50,8 @@ $('.positions li').click(function(){
 /* CLICK EVENTS */
 $(".players").delegate(".player", "click", function(){
 
+	$(".player-add-button").hide();
+
 	$('.player-add').show();
 	$(this).after($('.player-add'));
 	$('.player-add-number').val(0);
@@ -82,8 +84,9 @@ $(".players").delegate(".player", "click", function(){
 });
 
 $('.player-add-button').click(function(){
-	var n = $('.player-add-number').val();
+	var n = $('.player-add-delta').text();
 	var id = $('.player-add-id').val();
+	console.log(n + " " + id)
 	addPlayerToLineups(n, id);
 });
 
@@ -101,8 +104,11 @@ $( ".player-add-slider" ).slider({
 	min: 0,
 	max: lineups.length,
 	stop: function( event, ui ) {
+		$(".player-add-button").show();
 	  $(".player-add-slider-number").val(ui.value);
 	  $(".player-add-slider-pct").text(((ui.value/lineups.length) * 100).toFixed(2));
+	  var currentLineups = $('.player-add-number-lineups').text();
+	  $(".player-add-delta").text(ui.value - currentLineups);
 	}
 });
 
