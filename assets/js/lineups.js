@@ -164,16 +164,22 @@ function addPlayerToLineups(n, id, add){
 	
 	}
 
-	console.log(player.Name + " was added to " + numAddedTo + " lineups.");
+	displayLatestUpdate(player.Name, numAddedTo);
 
-	if(!alreadySelected){
-		newSelectedPlayer.lineupsIn = lineupsAddedTo;
-		selectedPlayers.push(newSelectedPlayer);
+	if (numAddedTo > 0){
+		if(!alreadySelected){
+			newSelectedPlayer.lineupsIn = lineupsAddedTo;
+			selectedPlayers.push(newSelectedPlayer);
+			$('.player-add-number-lineups').text(newSelectedPlayer.lineupsIn.length);
+		}
+		else{
+			var foundPlayer = findSelectedPlayer(player.id);
+			foundPlayer[0].lineupsIn = foundPlayer[0].lineupsIn.concat(lineupsAddedTo); // Immutable?
+			$('.player-add-number-lineups').text(foundPlayer[0].lineupsIn.length);
+		}
 	}
-	else{
-		var foundPlayer = findSelectedPlayer(player.id);
-		foundPlayer[0].lineupsIn = foundPlayer[0].lineupsIn.concat(lineupsAddedTo); // Immutable?
-	}
+
+	$('.player-add-button').hide();
 
 	console.log(selectedPlayers);
 
@@ -184,6 +190,12 @@ function addPlayerToLineups(n, id, add){
 
 	printLineups();
 
+}
+
+function displayLatestUpdate(name, n){
+	$('.latest-update').text(name + " was added to " + n + " lineups.");
+	$('.latest-update').fadeIn();
+	setTimeout(function(){ $('.latest-update').fadeOut(); }, 4000);
 }
 
 function isAlreadySelected(playerId){

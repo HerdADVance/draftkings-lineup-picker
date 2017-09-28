@@ -202,4 +202,17 @@ td.gameinfo{
   font-weight: bold;
 }
 
-
+/* LATEST UPDATE */
+.latest-update{
+  background: rgba(79,130,87,0.9);
+  bottom: 0;
+  color: #FFF;
+  display: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  width: 100%;
+}
