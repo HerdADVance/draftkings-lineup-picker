@@ -70,14 +70,19 @@ function addPlayerToLineups(n, id, add){
 	var player = players[id];
 	var position = player.Position;
 	var positionAvailable = '';
+	var newSelectedPlayer = {}
 
 	var alreadySelected = isAlreadySelected(player.id); 
 
-	var selectedPlayer = { // Start here
-		id: player.id,
-		name: player.Name,
-		lineupsIn: []  
+	if(!alreadySelected){
+		newSelectedPlayer = { 
+			id: player.id,
+			name: player.Name,
+			lineupsIn: []  
+		}
 	}
+
+	var lineupsAddedTo = [];
 
 	var i = -1;
 	var numAddedTo = 0;
@@ -153,7 +158,7 @@ function addPlayerToLineups(n, id, add){
 
 		lineups[i].roster[positionAvailable] = player;
 		
-		selectedPlayer.lineupsIn.push(i);
+		lineupsAddedTo.push(i);
 		
 		numAddedTo ++;
 	
@@ -161,7 +166,15 @@ function addPlayerToLineups(n, id, add){
 
 	console.log(player.Name + " was added to " + numAddedTo + " lineups.");
 
-	if(!alreadySelected) selectedPlayers.push(selectedPlayer);
+	if(!alreadySelected){
+		newSelectedPlayer.lineupsIn = lineupsAddedTo;
+		selectedPlayers.push(newSelectedPlayer);
+	}
+	else{
+		var foundPlayer = findSelectedPlayer(player.id);
+		foundPlayer[0].lineupsIn = foundPlayer[0].lineupsIn.concat(lineupsAddedTo); // Immutable?
+	}
+
 	console.log(selectedPlayers);
 
 	$('.selected-players').empty();

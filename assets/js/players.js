@@ -114,8 +114,6 @@ $( ".player-add-slider" ).slider({
 		var currentLineups = $('.player-add-number-lineups').text();
 		var delta = ui.value - currentLineups;
 
-		console.log(delta);
-
 		if(delta > 0) $("#delta-plus").show();
 			else if (delta < 0) $('#delta-minus').show();
 		
