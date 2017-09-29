@@ -65,8 +65,7 @@ function findCost(roster){
 
 
 /* ADDING TO LINEUPS */
-function addPlayerToLineups(n, id, add){
-	console.log(add);
+function addPlayerToLineups(n, id){
 	var player = players[id];
 	var position = player.Position;
 	var positionAvailable = '';
@@ -192,6 +191,44 @@ function addPlayerToLineups(n, id, add){
 
 }
 
+function removePlayerFromLineups(n, id){
+	var player = players[id];
+	var playerLineups = getPlayerLineups(id);
+
+	var numRemovedFrom = 0;
+	var toRemoveFrom = [];
+
+	for(var i=0; i<playerLineups.length; i++){
+		for(var key in lineups[playerLineups[i]].roster){
+			if(lineups[playerLineups[i]].roster[key]){
+				if(id === lineups[playerLineups[i]].roster[key].id){
+					toRemoveFrom.push({
+						id: playerLineups[i],
+						pos: key
+					});
+					numRemovedFrom ++;
+					break;
+				}
+			}
+		}
+		if (numRemovedFrom == n) break;
+	}
+
+	var selectedPlayer = findSelectedPlayer(id);
+
+	for(var i=0; i<toRemoveFrom.length; i++){
+		var lineup = toRemoveFrom[i].id;
+		var pos = toRemoveFrom[i].pos;
+
+		lineups[lineup].roster[pos] = null;
+		
+		//selectedPlayer.lineupsIn.splice(id, 1);
+
+	}
+
+	console.log(selectedPlayers);
+}
+
 function displayLatestUpdate(name, n){
 	$('.latest-update').text(name + " was added to " + n + " lineups.");
 	$('.latest-update').fadeIn();
@@ -219,7 +256,10 @@ function isAlreadyInLineup(playerId, lineup){
 }
 
 function getPlayerLineups(playerId){
-	//findSelectedPlayer(playerId);
+	var foundPlayer = selectedPlayers.filter(function (player) { return player.id == playerId });
+	if(foundPlayer.length === 1){
+		return foundPlayer[0].lineupsIn;
+	}
 }
 
 function findSelectedPlayer(playerId){

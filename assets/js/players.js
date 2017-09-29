@@ -85,14 +85,11 @@ $(".players").delegate(".player", "click", function(){
 
 $('.player-add-button').click(function(){
 	var plusMinus = $(this).attr('id');	
-	var n = $('#' + plusMinus + ' .player-add-delta').text();
-	var id = $('.player-add-id').val();
-	if (plusMinus == 'delta-plus') var add = true;
-		else var add = false; 
+	var n = parseInt($('#' + plusMinus + ' .player-add-delta').text());
+	var id = parseInt($('.player-add-id').val());
 
-	console.log(n);
-	
-	addPlayerToLineups(n, id, add);
+	if (plusMinus == 'delta-plus') addPlayerToLineups(n, id);
+		else removePlayerFromLineups(n, id);
 });
 
 
@@ -123,5 +120,5 @@ $( ".player-add-slider" ).slider({
 });
 
 var value = $( ".player-add-slider" ).slider( "values", 0);
-$//( ".player-add-number" ).slider( "option", "value", 10 );
+//$( ".player-add-number" ).slider( "option", "value", 10 );
 
