@@ -6,7 +6,10 @@ function buildLineups(n){
 }
 
 function newLineup(){
+	newLineupId ++;
+
 	return{
+		id: newLineupId,
 	 	roster: {
 	 		QB: null,
 			RB1: null,
@@ -17,7 +20,7 @@ function newLineup(){
 			TE: null,
 			FLEX: null,
 			DST: null
-	 	}	
+	 	}
 	}
 }
 
@@ -215,17 +218,21 @@ function removePlayerFromLineups(n, id){
 	}
 
 	var selectedPlayer = findSelectedPlayer(id);
+	console.log(selectedPlayer);
 
 	for(var i=0; i<toRemoveFrom.length; i++){
 		var lineup = toRemoveFrom[i].id;
 		var pos = toRemoveFrom[i].pos;
 
 		lineups[lineup].roster[pos] = null;
-		
-		//selectedPlayer.lineupsIn.splice(id, 1);
 
+		//var foundId = lineups.filter(function (player) { return toRemoveFrom[i].id == playerId });
+
+		var index = selectedPlayer[0].lineupsIn.indexOf(toRemoveFrom[i].id);
+		console.log(index);
 	}
 
+	printLineups();
 	console.log(selectedPlayers);
 }
 
@@ -268,6 +275,10 @@ function findSelectedPlayer(playerId){
 		else return false;
 }
 
+function findLineupById(id){
+
+}
+
 function getPlayerLineupStats(id){
 	var player = players[id];
 	var playerFound = 0;
@@ -308,9 +319,9 @@ $('.lineups-number').change(function() {
 /* INITIALIZE */
 var lineups = [];
 var selectedPlayers = [];
-
+var newLineupId = -1;
 buildLineups(25);
-
+console.log(lineups);
 
 
 
