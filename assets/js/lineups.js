@@ -166,7 +166,7 @@ function addPlayerToLineups(n, id){
 	
 	}
 
-	displayLatestUpdate(player.Name, numAddedTo);
+	displayLatestUpdate(player.Name, numAddedTo, true);
 
 	if (numAddedTo > 0){
 		if(!alreadySelected){
@@ -196,48 +196,81 @@ function addPlayerToLineups(n, id){
 
 function removePlayerFromLineups(n, id){
 	var player = players[id];
-	var playerLineups = getPlayerLineups(id);
+	var playerLineups = getPlayerLineups(id); //pretending these are actual IDs
+	var playerLineupsLength = playerLineups.length;
 
 	var numRemovedFrom = 0;
 	var toRemoveFrom = [];
 
 	for(var i=0; i<playerLineups.length; i++){
-		for(var key in lineups[playerLineups[i]].roster){
-			if(lineups[playerLineups[i]].roster[key]){
-				if(id === lineups[playerLineups[i]].roster[key].id){
-					toRemoveFrom.push({
-						id: playerLineups[i],
-						pos: key
-					});
+
+		var j = lineups.findIndex(function(lineup){
+			return lineup.id == playerLineups[i];
+		});
+
+		for(var key in lineups[j].roster){
+			if(lineups[j].roster[key]){
+				if(id === lineups[j].roster[key].id){
 					numRemovedFrom ++;
-					break;
+					toRemoveFrom.push(lineups[j].id); // There's got to be a better way to do this
+					lineups[j].roster[key] = null;
+					continue;
 				}
 			}
 		}
+
 		if (numRemovedFrom == n) break;
 	}
 
-	var selectedPlayer = findSelectedPlayer(id);
-	console.log(selectedPlayer);
-
 	for(var i=0; i<toRemoveFrom.length; i++){
-		var lineup = toRemoveFrom[i].id;
-		var pos = toRemoveFrom[i].pos;
+		
+		var p = selectedPlayers.findIndex(function(selectedPlayer){
+			return selectedPlayer.id == id;
+		});
+		var l = selectedPlayers[p].lineupsIn.findIndex(function(selectedLineup){
+			return selectedLineup == toRemoveFrom[i];
+		});
 
-		lineups[lineup].roster[pos] = null;
-
-		//var foundId = lineups.filter(function (player) { return toRemoveFrom[i].id == playerId });
-
-		var index = selectedPlayer[0].lineupsIn.indexOf(toRemoveFrom[i].id);
-		console.log(index);
+		selectedPlayers[p].lineupsIn.splice(l, 1);
 	}
 
 	printLineups();
+	displayLatestUpdate(player.Name, numRemovedFrom);
+
+	var numRemainingLineups = playerLineupsLength - numRemovedFrom;
+
+	console.log(numRemainingLineups);
+	
+	if(numRemainingLineups > 0){ 
+		$('.player-add-number-lineups').text(numRemainingLineups);
+	}
+	else{
+		$('.player-add-number-lineups').text(0);
+		// Remove from Selected Players array?
+	}
+
+	$('.player-add-button').hide();
+
 	console.log(selectedPlayers);
+	console.log(lineups);
 }
 
-function displayLatestUpdate(name, n){
-	$('.latest-update').text(name + " was added to " + n + " lineups.");
+function removeSelectedId(playerId, lineupId){
+
+	var p = selectedPlayers.findIndex(function(selectedPlayer){
+		return selectedPlayer.id == playerId;
+	});
+
+	var l = selectedPlayers[p].lineupsIn.findIndex(function(selectedLineup){
+		return selectedLineup == lineupId;
+	});
+
+	selectedPlayers[p].lineupsIn.splice(l, 1);
+}
+
+function displayLatestUpdate(name, n, wasAdded){
+	if(wasAdded) $('.latest-update').text(name + " was added to " + n + " lineups.");
+		else $('.latest-update').text(name + " was removed from " + n + " lineups.");
 	$('.latest-update').fadeIn();
 	setTimeout(function(){ $('.latest-update').fadeOut(); }, 4000);
 }
@@ -320,8 +353,7 @@ $('.lineups-number').change(function() {
 var lineups = [];
 var selectedPlayers = [];
 var newLineupId = -1;
-buildLineups(25);
-console.log(lineups);
+buildLineups(125);
 
 
 
