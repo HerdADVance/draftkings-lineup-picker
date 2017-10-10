@@ -38,14 +38,16 @@ function printLineup(lineup, numberLineup){
 	if(cost > 50000){ var costStatus = "cost-over"}
 		else{ var costStatus = "cost-under" }
 
-	var output = '<table class="lineup ' + costStatus + '" id="' + numberLineup + '">';
+	var output = '<table class="lineup ' + costStatus + '" id="' + lineup.id + '">';
 	output += '<tr><th colspan="4">Lineup #' + (numberLineup + 1) + '</th></tr>'; 
 	
 	for(var key in lineup.roster){
-		output += '<tr class="lineup-player"><td>' + key + '</td><td>';
-		if(lineup.roster[key]) output += lineup.roster[key].Name
+		output += '<tr data-pos="' + key + '"';
+		if(lineup.roster[key]) output += ' data-pid="' + lineup.roster[key].id + '"';
+		output += '><td>' + key + '</td><td>';
+		if(lineup.roster[key]) output += lineup.roster[key].Name;
 		output += '</td><td>';
-		if(lineup.roster[key]) output += lineup.roster[key].Salary
+		if(lineup.roster[key]) output += lineup.roster[key].Salary;
 		output += '</td></tr>';
 	}
 	
@@ -222,17 +224,7 @@ function removePlayerFromLineups(n, id){
 		if (numRemovedFrom == n) break;
 	}
 
-	for(var i=0; i<toRemoveFrom.length; i++){
-		
-		var p = selectedPlayers.findIndex(function(selectedPlayer){
-			return selectedPlayer.id == id;
-		});
-		var l = selectedPlayers[p].lineupsIn.findIndex(function(selectedLineup){
-			return selectedLineup == toRemoveFrom[i];
-		});
-
-		selectedPlayers[p].lineupsIn.splice(l, 1);
-	}
+	removeFromSelectedLineups(id, toRemoveFrom);
 
 	printLineups();
 	displayLatestUpdate(player.Name, numRemovedFrom);
@@ -255,17 +247,27 @@ function removePlayerFromLineups(n, id){
 	console.log(lineups);
 }
 
-function removeSelectedId(playerId, lineupId){
+function removeFromSelectedLineups(playerId, lineupsToRemoveFrom){
 
 	var p = selectedPlayers.findIndex(function(selectedPlayer){
 		return selectedPlayer.id == playerId;
 	});
 
-	var l = selectedPlayers[p].lineupsIn.findIndex(function(selectedLineup){
-		return selectedLineup == lineupId;
-	});
+	for(var i=0; i<lineupsToRemoveFrom.length; i++){
 
-	selectedPlayers[p].lineupsIn.splice(l, 1);
+		var l = selectedPlayers[p].lineupsIn.findIndex(function(selectedLineup){
+			return selectedLineup == lineupsToRemoveFrom[i];
+		});
+
+		selectedPlayers[p].lineupsIn.splice(l, 1);
+	}
+}
+
+function emptySpecificPosition(lineupId, position){
+	var index = lineups.findIndex(function(lineup){
+		return lineup.id == lineupId;
+	});
+	lineups[index].roster[position] = null;
 }
 
 function displayLatestUpdate(name, n, wasAdded){
@@ -347,13 +349,21 @@ $('.lineups-number').change(function() {
 	var number = $(this).val();
 	buildLineups(number);
 });
+$(".lineups").delegate("table tr", "click", function(){
+	var lineupId = $(this).closest('.lineup').attr('id');
+	var position = $(this).attr('data-pos');
+	var playerId = $(this).attr('data-pid');
 
+	emptySpecificPosition(lineupId, position);
+	removeFromSelectedLineups(playerId, [lineupId]);
+	printLineups();
+});
 
 /* INITIALIZE */
 var lineups = [];
 var selectedPlayers = [];
 var newLineupId = -1;
-buildLineups(20);
+buildLineups(120);
 
 
 

@@ -181,7 +181,7 @@ td.gameinfo{
 }
 
 /* INDIVIDUAL LINEUP PLAYER ROWS */
-.lineup-player td:first-child{
+.lineup tr td:first-child{
   width: 30px;
 }
 
