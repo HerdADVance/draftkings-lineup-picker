@@ -48,10 +48,13 @@ function printLineup(lineup, numberLineup){
 		if(lineup.roster[key]) output += lineup.roster[key].Name;
 		output += '</td><td>';
 		if(lineup.roster[key]) output += lineup.roster[key].Salary;
+		output += '</td><td>';
+		if(lineup.roster[key]) output += 'X';
+			else output += '+'
 		output += '</td></tr>';
 	}
 	
-	output += '<tr class="total"><td colspan="2">Remaining: <span>' + costRemaining + '</span></td><td>' + cost + '</td></tr>';
+	output += '<tr class="total"><td colspan="2">Remaining: <span>' + costRemaining + '</span></td><td colspan="2">' + cost + '</td></tr>';
 	output += '</table>';
 	
 	$('.lineups-wrap').append(output);
@@ -363,7 +366,7 @@ $(".lineups").delegate("table tr", "click", function(){
 var lineups = [];
 var selectedPlayers = [];
 var newLineupId = -1;
-buildLineups(120);
+buildLineups(50);
 
 
 

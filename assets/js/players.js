@@ -6,20 +6,29 @@ function printPlayers(pos){
 	switch(pos){
 		case 'ALL':
 			for(var i=0; i<players.length; i++){
-				list += printPlayer(players[i], i);
+				list += printPlayer(players[i]);
 			}
 			break;
 		case 'FLEX':
 			for(var i=0; i<players.length; i++){
 				if(players[i].Position == 'RB' || players[i].Position == 'WR' || players[i].Position =='TE'){
-					list += printPlayer(players[i], i);
+					list += printPlayer(players[i]);
 				}
 			}
+			break;
+		case 'SEL':
+			for(var i=0; i<selectedPlayers.length; i++){
+				var p = players.findIndex(function(player){
+					return player.id == selectedPlayers[i].id;
+				});
+				console.log(p);
+				list += printPlayer(players[p]);
+			}	
 			break;
 		default:
 			for(var i=0; i<players.length; i++, i){
 				if(pos == players[i].Position){
-					list += printPlayer(players[i], i);
+					list += printPlayer(players[i]);
 				}
 			}
 			break;
@@ -28,7 +37,7 @@ function printPlayers(pos){
 	$('.players').append(list);
 }
 
-function printPlayer(player, i){
+function printPlayer(player){
 	var row = '';
 	row += '<tr class="player" id="' + player.id + '">';
 	row += '<td class="position">' + player.Position + '</td>';
@@ -41,13 +50,15 @@ function printPlayer(player, i){
 	return row;
 }
 
+/* CLICK EVENTS */
+
 $('.positions li').click(function(){
+	$('.player-add').hide();
 	var pos = $(this).text();
 	printPlayers(pos);
 });
 
 
-/* CLICK EVENTS */
 $(".players").delegate(".player", "click", function(){
 
 	$(".player-add-button").hide();

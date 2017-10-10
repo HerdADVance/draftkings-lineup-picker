@@ -82,10 +82,13 @@ button{
   height: 40px;
   line-height: 40px;
   text-align: center;
-  width: 14.285%;
+  width: 12.5%;
 }
 .positions li:hover{
   background: #9AE200;
+}
+.games li{
+  float: left;
 }
 .players-wrap{
   clear: both;
@@ -177,12 +180,21 @@ td.gameinfo{
 .lineup td{
   color: #000;
   font-size: 10px;
-  padding: 5px;
+  height: 23px;
+  padding: 0;
 }
 
 /* INDIVIDUAL LINEUP PLAYER ROWS */
 .lineup tr td:first-child{
   width: 30px;
+}
+.lineup tr td:nth-child(3){
+  font-size: 12px;
+  width: 50px;
+}
+.lineup tr td:last-child{
+  cursor: pointer;
+  width: 25px;
 }
 
 /* LINEUP TOTALS ROW */
