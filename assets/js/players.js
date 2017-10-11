@@ -1,55 +1,52 @@
-function printPlayers(pos){
-	$('.player-add-holder').after($('.player-add'));
-	$('.players').empty();
+function printPlayers(selectedPosition, awayTeam){
+	
+	emptyPlayers();
 	var list = '';
 
-	switch(pos){
+	var playersToLoop = [];
+
+	if(awayTeam){
+		for(var i=0; i<players.length; i++){
+
+			var playerGame = players[i].GameInfo;
+			var playerAwayTeam = playerGame.substr(0, playerGame.indexOf('@'));
+			
+			if(playerAwayTeam === awayTeam){
+				playersToLoop.push(players[i]);
+			}
+		}
+	}
+		else playersToLoop = players;
+
+	
+	switch(selectedPosition){
 		case 'ALL':
-			for(var i=0; i<players.length; i++){
-				list += printPlayer(players[i]);
+			for(var i=0; i<playersToLoop.length; i++){
+				list += printPlayer(playersToLoop[i]);
 			}
 			break;
 		case 'FLEX':
-			for(var i=0; i<players.length; i++){
-				if(players[i].Position == 'RB' || players[i].Position == 'WR' || players[i].Position =='TE'){
-					list += printPlayer(players[i]);
+			for(var i=0; i<playersToLoop.length; i++){
+				if(playersToLoop[i].Position == 'RB' || playersToLoop[i].Position == 'WR' || playersToLoop[i].Position =='TE'){
+					list += printPlayer(playersToLoop[i]);
 				}
 			}
 			break;
 		case 'SEL':
 			for(var i=0; i<selectedPlayers.length; i++){
-				var p = players.findIndex(function(player){
+				var p = playersToLoop.findIndex(function(player){
 					return player.id == selectedPlayers[i].id;
 				});
-				console.log(p);
-				list += printPlayer(players[p]);
+				if(p != -1) list += printPlayer(playersToLoop[p]);
 			}	
 			break;
 		default:
-			for(var i=0; i<players.length; i++, i){
-				if(pos == players[i].Position){
-					list += printPlayer(players[i]);
+			for(var i=0; i<playersToLoop.length; i++, i){
+				if(selectedPosition == playersToLoop[i].Position){
+					list += printPlayer(playersToLoop[i]);
 				}
 			}
 			break;
-	}
-
-	$('.players').append(list);
-}
-
-function printPlayersByGame(awayTeam){
-	$('.player-add-holder').after($('.player-add'));
-	$('.players').empty();
-	var list = '';
-
-	for(var i=0; i<players.length; i++){
-		
-		var playerGame = players[i].GameInfo;
-		var playerAwayTeam = playerGame.substr(0, playerGame.indexOf('@'));
-		
-		if(playerAwayTeam === awayTeam){
-			list += printPlayer(players[i]);
-		}
 	}
 
 	$('.players').append(list);
@@ -68,23 +65,41 @@ function printPlayer(player){
 	return row;
 }
 
+function emptyPlayers(){
+	$('.player-add-holder').after($('.player-add'));
+	$('.players').empty();
+}
+
 /* CLICK EVENTS */
 
 $('.positions li').click(function(){
 	$('.positions li').removeClass('selected');
 	$(this).addClass('selected');
-	
 	$('.player-add').hide();
 
-	var pos = $(this).text();
-	printPlayers(pos);
+	var selectedPosition = $(this).text();
+	var game = $('.games li.selected').text();
+	var awayTeam = game.substr(0, game.indexOf(' '));
+	
+	printPlayers(selectedPosition, awayTeam);
 });
 
-$('.games li').click(function(){
-	var game = $(this).text();
-	var awayTeam = game.substr(0, game.indexOf(' '));
 
-	printPlayersByGame(awayTeam);
+$('.games li').click(function(){
+	var selectedPosition = $('.positions li.selected').text();
+	$('.player-add').hide();
+	
+	if($(this).hasClass('selected')){
+		$('.games li').removeClass('selected');
+		printPlayers(selectedPosition);
+	}
+	else{
+		$('.games li').removeClass('selected');
+		$(this).addClass('selected');
+		var game = $(this).text();
+		var awayTeam = game.substr(0, game.indexOf(' '));
+		printPlayers(selectedPosition, awayTeam);
+	}
 })
 
 
@@ -135,6 +150,7 @@ $('.player-add-button').click(function(){
 
 /* INITIALIZE */
 printPlayers('ALL');
+var selectedGame = '';
 
 $( ".player-add-slider" ).slider({
 	animate: "fast",
