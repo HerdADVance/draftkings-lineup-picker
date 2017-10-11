@@ -84,16 +84,31 @@ button{
   text-align: center;
   width: 12.5%;
 }
-.positions li:hover{
+.positions li:hover, .positions li.selected{
   background: #9AE200;
 }
 .games li{
+  background: #333;
+  border: 1px solid #CCC;
+  color: white;
   float: left;
+  font-size: 12px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  width: 14.2857%;
 }
+.games li:last-child{
+  border-right: 2px solid #CCC;
+}
+.games li:hover{
+  background: #666;
+}
+
 .players-wrap{
   clear: both;
   display: block;
-  max-height: calc(100% - 80px);
+  max-height: calc(100% - 130px);
   overflow-y: scroll;
 }
 

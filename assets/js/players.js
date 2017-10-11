@@ -37,6 +37,24 @@ function printPlayers(pos){
 	$('.players').append(list);
 }
 
+function printPlayersByGame(awayTeam){
+	$('.player-add-holder').after($('.player-add'));
+	$('.players').empty();
+	var list = '';
+
+	for(var i=0; i<players.length; i++){
+		
+		var playerGame = players[i].GameInfo;
+		var playerAwayTeam = playerGame.substr(0, playerGame.indexOf('@'));
+		
+		if(playerAwayTeam === awayTeam){
+			list += printPlayer(players[i]);
+		}
+	}
+
+	$('.players').append(list);
+}
+
 function printPlayer(player){
 	var row = '';
 	row += '<tr class="player" id="' + player.id + '">';
@@ -53,10 +71,21 @@ function printPlayer(player){
 /* CLICK EVENTS */
 
 $('.positions li').click(function(){
+	$('.positions li').removeClass('selected');
+	$(this).addClass('selected');
+	
 	$('.player-add').hide();
+
 	var pos = $(this).text();
 	printPlayers(pos);
 });
+
+$('.games li').click(function(){
+	var game = $(this).text();
+	var awayTeam = game.substr(0, game.indexOf(' '));
+
+	printPlayersByGame(awayTeam);
+})
 
 
 $(".players").delegate(".player", "click", function(){
