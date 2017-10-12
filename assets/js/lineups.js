@@ -274,8 +274,8 @@ function emptySpecificPosition(lineupId, position){
 }
 
 function displayLatestUpdate(name, n, wasAdded){
-	if(wasAdded) $('.latest-update').text(" was added to " + n + " lineups.");
-		else $('.latest-update').text(" was removed from " + n + " lineups.");
+	if(wasAdded) $('.latest-update').text(name + " was added to " + n + " lineups.");
+		else $('.latest-update').text(name + " was removed from " + n + " lineups.");
 	$('.latest-update').fadeIn();
 	setTimeout(function(){ $('.latest-update').fadeOut(); }, 4000);
 }
