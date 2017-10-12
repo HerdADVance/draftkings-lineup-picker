@@ -156,9 +156,15 @@ td.gameinfo{
 .player-add-slider-number{
   background: none;
   border: none;
+  color: #FF6C00;
   font-size: 20px;
+  line-height: 24px;
   text-align: center;
   width: 40px;
+}
+.player-add-slider-pct{
+  font-size: 16px;
+  line-height: 24px;
 }
 .player-add-button{
   background: lightgreen;
