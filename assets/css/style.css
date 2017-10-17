@@ -115,13 +115,13 @@ button{
 }
 
 /* PLAYERS TABLE ROWS AND CELLS */
-.players tr{
+.players > tr{
   background: #FFF;
 }
-.players tr:nth-child(odd){
+.players > tr:nth-child(odd){
   background: #EEE;
 }
-.players tr:hover{
+.players > tr:hover{
   background: #999;
 }
 td.name{
@@ -178,6 +178,19 @@ td.gameinfo{
   background: lightcoral;
 }
 
+/* OPTIONS IN PLAYER ADD SECTION */
+.player-add-options button{
+  background: #333;
+  color: white;
+  float: left;
+  margin: 0 1.25%;
+  width: 22.5%;
+}
+
+.correlation{
+  margin-left: 1.25%;
+  width: 97.5%;
+}
 
 /* LINEUP TABLES */
 .lineups-wrap{
