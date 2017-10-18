@@ -85,7 +85,8 @@ function addPlayerToLineups(n, id){
 		newSelectedPlayer = { 
 			id: player.id,
 			name: player.Name,
-			lineupsIn: []  
+			lineupsIn: [],
+			correlatedWith: [] 
 		}
 	}
 

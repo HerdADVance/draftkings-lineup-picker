@@ -70,6 +70,22 @@ function emptyPlayers(){
 	$('.players').empty();
 }
 
+function printSelectedPlayers(){  // this loop will need to loop through existing correlations for each player
+	$('.correlations-players').empty();
+	
+	var output = '';
+	
+	if(selectedPlayers.length > 0){
+		output += '<select>';
+		for(var i=0; i<selectedPlayers.length; i++){
+			output += '<option>' + selectedPlayers[i].name + '</option>';
+		}
+		output += '</select>';
+	}
+	
+	$('.correlations-players').append(output);
+}
+
 /* CLICK EVENTS */
 
 $('.positions li').click(function(){
@@ -136,6 +152,8 @@ $(".players").delegate(".player", "click", function(){
 
 
 	getPlayerLineupStats(playerId);
+
+	printSelectedPlayers();
 });
 
 $('.player-add-button').click(function(){
